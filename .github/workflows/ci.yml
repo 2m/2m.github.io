@@ -28,4 +28,5 @@ jobs:
       with:
         cache: "yarn"
 
+    - run: just install
     - run: just build

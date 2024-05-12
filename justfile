@@ -4,6 +4,9 @@ dev:
 process:
     scala-cli ProcessImages.scala
 
+install:
+    yarn install
+
 build:
     yarn build
 
