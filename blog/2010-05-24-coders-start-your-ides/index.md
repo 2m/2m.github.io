@@ -1,7 +1,7 @@
 ---
 slug: coders-start-your-ides
 title: Coders, start your IDEs!
-description: "Google Summer of Code 2010 weekly reports"
+description: 'Google Summer of Code 2010 weekly reports'
 authors: [2m]
 tags: [gsoc]
 ---
@@ -104,7 +104,7 @@ I have solved the base64 image length problem that I described in my last post. 
 
 I have tested various trivial cases for tables and checked if query results work on them. There was some tweaking to be done for these cases.
 
-I also documented some work I have done in the wiki. You can find it [here](https://wiki.phpmyadmin.net/pma/Charts). There is also a format documented that is accepted for query results charts. You can see the preparations that need to be done for your data if you want to put it to the chart.
+I also documented some work I have done in the wiki. You can find it [here](https://docs.phpmyadmin.net/en/latest/charts.html). There is also a format documented that is accepted for query results charts. You can see the preparations that need to be done for your data if you want to put it to the chart.
 
 I have also merged master to my fork. There was only one minor conflict. This actually means that I am not changing PMA code much. I am just adding some new.
 
