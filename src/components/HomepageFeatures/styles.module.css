@@ -9,3 +9,11 @@
   height: 200px;
   width: 200px;
 }
+
+.feeds {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.2rem;
+}

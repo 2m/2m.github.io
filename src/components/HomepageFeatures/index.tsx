@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import { Icon } from '@iconify/react';
 
 type FeatureItem = {
   title: string;
@@ -17,7 +18,13 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_blog_post_re_fy5x.svg').default,
     description: (
       <>
-        Started as a Google Summer Of Code 2010 log and was rather calm after that.
+        Started as a Google Summer Of Code 2010 log and expanded to various different topics.
+        <p className={styles.feeds}>
+          <Icon style={{ color: 'orange' }} icon="mdi:rss-feed-box" />
+          <a href="blog/rss.xml">RSS</a>
+          <a href="blog/atom.xml">Atom</a>
+          <a href="blog/feed.json">JSON</a>
+        </p>
       </>
     ),
   },

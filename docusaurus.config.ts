@@ -32,16 +32,45 @@ const config: Config = {
         pages: {
         },
         blog: {
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/2m/2m.github.io/tree/main/',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} 2m`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 99),
+                ...rest,
+              });
+            },
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  plugins: [
+    () => ({
+      name: "inject-tag",
+      injectHtmlTags() {
+        return {
+          headTags: [{
+            tagName: "script",
+            attributes: {
+              'data-goatcounter': "https://dvim.goatcounter.com/count",
+              src: "//gc.zgo.at/count.js",
+              async: "true"
+            }
+          }],
+        };
+      },
+    }),
   ],
 
   themeConfig: {
@@ -105,6 +134,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['json', 'toml', 'bash'],
     }
   } satisfies Preset.ThemeConfig,
 };

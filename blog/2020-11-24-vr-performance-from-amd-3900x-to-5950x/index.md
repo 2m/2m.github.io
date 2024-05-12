@@ -1,6 +1,7 @@
 ---
 slug: vr-performance-from-amd-3900x-to-5950x
 title: VR performance from AMD 3900x to 5950x
+description: Exploring CPU bottlenecks in VR with iRacing
 authors: [2m]
 tags: [vr, hw]
 ---
@@ -26,7 +27,7 @@ The test was one lap in Barcelona circuit behind 10 AI cars all driving Audi RS3
 
 First run was using medium graphics configuration.
 
-![Medium Quality Graphics](./medium_settings.png)
+<Img large={require('./medium_settings.png').default} small={require('./medium_settings.small.png').default} />
 
 This is the conservative configuration which allows me to keep 90FPS in almost all of the tracks when racing.
 I used to get some parts of Barcelona circuit that would drop to &lt;90FPS with the old CPU.
@@ -40,7 +41,7 @@ However the 5950x does not do that any more. As you can see from the graphs, wit
 
 Second run was done using high quality graphics.
 
-![High Quality Graphics](./high_settings.png)
+<Img large={require('./high_settings.png').default} small={require('./high_settings.small.png').default} />
 
 <HighFrametime />
 <p style={{display: "flex", justifyContent: "space-between"}}><span>Frametimes</span>[Larger Size](/vr-performance-from-amd-3900x-to-5950x/high_frametime)</p>
