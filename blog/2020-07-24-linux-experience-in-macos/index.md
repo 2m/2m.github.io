@@ -18,7 +18,7 @@ First of all MacBook keyboard keys need a remap in a way which leaves as much as
 
 <Img large={require('./cmd.png').default} small={require('./cmd.small.png').default} />
 
-For example, to open a new tab in the browser, one would use **cmd+t**. Therefore, at least for browsers (and quite a few other GUI apps) the fix is quite simple: swap **fn** and **cmd** keys.
+For example, to open a new tab in the browser, one would use <kbd>Cmd</kbd> + <kbd>t</kbd>. Therefore, at least for browsers (and quite a few other GUI apps) the fix is quite simple: swap <kbd>Fn</kbd> and <kbd>Cmd</kbd> keys.
 
 I use [Karabiner-Elements](https://karabiner-elements.pqrs.org/) for key remaps.
 
@@ -30,9 +30,9 @@ Having configuration in JSON files enables easy tracking for configuration chang
 
 ### Making terminal work with cmd key
 
-This quick remap works great for quite a few apps, but unfortunately it does not for terminal applications. Both, my terminal of choice [alacritty](https://github.com/alacritty/alacritty), and VS Code terminal uses **control** key for usual terminal commands like ctrl+c, ctrl+w, etc on macOS.
+This quick remap works great for quite a few apps, but unfortunately it does not for terminal applications. Both, my terminal of choice [alacritty](https://github.com/alacritty/alacritty), and VS Code terminal uses <kbd>Ctrl</kbd> key for usual terminal commands like <kbd>Ctrl</kbd> + <kbd>c</kbd>, <kbd>Ctrl</kbd> + <kbd>w</kbd>, etc on macOS.
 
-To fix this, I needed to re-create bindings that work with **cmd** as well as with **control** keys. Luckily, alacritty supports creating these kinds of bindings in its configuration file:
+To fix this, I needed to re-create bindings that work with <kbd>Cmd</kbd> as well as with <kbd>Ctrl</kbd> keys. Luckily, alacritty supports creating these kinds of bindings in its configuration file:
 
 ```yaml
   # Bind control characters to Command+... combination
@@ -69,7 +69,7 @@ VS Code also has support for that:
 
 ### Text editing bindings
 
-I am also used to moving around editable text with **ctrl+arrow** key. Also possibly selecting part of the text while holding the **shift** key.
+I am also used to moving around editable text with <kbd>Ctrl</kbd> + <kbd>Arrow</kbd> key. Also possibly selecting part of the text while holding the <kbd>Shift</kbd> key.
 
 I found quite an old article that explained how to enable these key bindings in macOS: http://heisencoder.net/2008/04/fixing-up-mac-key-bindings-for-windows.html
 
@@ -103,7 +103,7 @@ Saved to `~/Library/KeyBindings/DefaultKeyBinding.Dict` file, it brought most of
 
 ### Bringing back tilde
 
-For some reason the **tilde** key was not printing **~** or **`**. Instead it would print **±** or **§**.
+For some reason the <kbd>Tilde</kbd> key was not printing **~** or **`**. Instead it would print **±** or **§**.
 
 Again, Karabiner-Elements was brought to the rescue, albeit with a strangely named configuration option:
 
@@ -135,7 +135,7 @@ There are other, more powerful tools in this scene, like [ianyh/amethyst](https:
 
 ### Launching applications
 
-One of the first things to do, when Linux (or macOS) system boots up, is to open a terminal. 😉 This is a very frequent action and I usually have it bound to **meta+enter** on Linux. After all of the key swaps, it should end up on **ctrl+enter** on my macOS box.
+One of the first things to do, when Linux (or macOS) system boots up, is to open a terminal. 😉 This is a very frequent action and I usually have it bound to <kbd>Meta</kbd> + <kbd>Enter</kbd> on Linux. After all of the key swaps, it should end up on <kbd>Ctrl</kbd> + <kbd>Enter</kbd> on my macOS box.
 
 I used [koekeishiya/skhd](https://github.com/koekeishiya/skhd) tool to bind custom key combinations to launching GUI applications. It also is configured by editing a configuration file, which is always great.
 
@@ -145,7 +145,7 @@ ctrl - return : /MacOS/alacritty -e tmux-attach-or-new
 shift + ctrl - return : /MacOS/alacritty -e fish
 ```
 
-The following configuration opens a new terminal window with tmux when pressing **ctrl+return**. There is also an option to open a new terminal without tmux by additionally pressing **shift**.
+The following configuration opens a new terminal window with tmux when pressing <kbd>Ctrl</kbd> + <kbd>Return</kbd>. There is also an option to open a new terminal without tmux by additionally pressing <kbd>Shift</kbd>.
 
 One more useful binding managed by skhd is to get GPG passphrase from LastPass and put it to clipboard:
 
