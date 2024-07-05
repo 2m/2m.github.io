@@ -6,7 +6,8 @@ import { Icon } from '@iconify/react';
 type FeatureItem = {
   title: string;
   page: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg?: React.ComponentType<React.ComponentProps<'svg'>>;
+  Img?: string
   description: JSX.Element;
 };
 
@@ -52,7 +53,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'the-button.com',
     page: 'https://the-button.com',
-    Svg: require('@site/static/img/undraw_online_ad_re_ol62.svg').default,
+    Img: 'https://www.the-button.com/sign.php?id=5',
     description: (
       <>
         A multiplayer save-the-world-every-108-minutes game inspired by the TV show "Lost".
@@ -81,11 +82,12 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, page, Svg, description }: FeatureItem) {
+function Feature({ title, page, Svg, Img, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className="text--center" style={{ height: '14em', alignItems: 'center', justifyContent: 'center', display: 'flex' }}>
+        {Svg && <Svg className={styles.featureSvg} role="img" />}
+        {Img && <img src={Img} alt="The Button high scores banner" />}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3"><a href={page}>{title}</a></Heading>
