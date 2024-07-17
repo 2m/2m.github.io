@@ -3,7 +3,7 @@ slug: appliance-control-using-a-mobile-phone-and-sms-messages
 title: Appliance control using a mobile phone and SMS messages
 description: How to control appliances using a mobile phone and SMS messages
 authors: [2m]
-tags: [hw]
+tags: [home-automation]
 ---
 
 Hey, how are you doing? (: Since there was a week between the end of the GSoC and the start of my studies, I decided to do some hobby hacking.

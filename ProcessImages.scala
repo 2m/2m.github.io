@@ -1,4 +1,4 @@
-//> using dep com.lihaoyi::os-lib:0.10.0
+//> using dep com.lihaoyi::os-lib:0.10.2
 
 @main def main() =
   val skipDirs = List("build", "node_modules", "/.")
@@ -13,4 +13,4 @@
     .filterNot(p => p.toString.contains(".small."))
     .map: p =>
       val newPath = p / os.up / s"${p.baseName}.small.${p.ext}"
-      os.proc("convert", p, "-resize", "770x770", "-quality", "99", newPath).call()
+      os.proc("magick", p, "-resize", "770x770", "-quality", "99", newPath).call()
