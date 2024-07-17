@@ -103,6 +103,8 @@ With this setup `sensor.duju_skaitliukas` sensor can be added to the "Gas Consum
 
 Full ESPHome [configuration for the sensor can be found here][esphome-config]. It also includes a snippet that shows the value of the `sensor.duju_skaitliukas` Home Assistant sensor on the [OLED screen of the ESP32 device][t-display].
 
+For comments and any questions feel free to reach out on [Mastodon][mastodon].
+
 [reed]:             https://community.home-assistant.io/t/gas-meter-from-xiaomi-aqara-door-sensor-zigbee/348032/126
 [photo]:            https://simplyexplained.com/blog/tracking-gas-usage-with-esphome-home-assistant-and-tcrt5000/
 [sensors]:          https://play.google.com/store/apps/details?id=com.chrystianvieyra.physicstoolboxsuite
@@ -111,3 +113,4 @@ Full ESPHome [configuration for the sensor can be found here][esphome-config]. I
 [threshold]:        https://www.home-assistant.io/integrations/threshold/
 [esphome-config]:   https://github.com/2m/hassio-config/blob/f6554696c6bcd28d67d2c2d8fa43e7663261ad36/esphome/gas-meter.yaml
 [t-display]:        https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board
+[mastodon]:         https://mastodon.social/@dvim/112803731282729723
