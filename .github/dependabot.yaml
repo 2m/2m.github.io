@@ -8,3 +8,11 @@ updates:
   directory: "/"
   schedule:
     interval: "weekly"
+  groups:
+    docusaurus:
+      applies-to: version-updates
+      patterns:
+      - "@docusaurus*"
+      update-types:
+      - "minor"
+      - "patch"
