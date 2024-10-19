@@ -46,6 +46,7 @@ const config: Config = {
                 ...rest,
               });
             },
+            xslt: true,
           },
         },
         theme: {
