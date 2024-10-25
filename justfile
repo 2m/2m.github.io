@@ -2,7 +2,7 @@ dev:
     yarn run start
 
 process:
-    scala-cli ProcessImages.scala
+    scala ProcessImages.scala
 
 install:
     yarn install

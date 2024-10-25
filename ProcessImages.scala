@@ -1,4 +1,4 @@
-//> using dep com.lihaoyi::os-lib:0.10.2
+//> using dep com.lihaoyi::os-lib:0.11.3
 
 @main def main() =
   val skipDirs = List("build", "node_modules", "/.")
