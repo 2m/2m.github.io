@@ -68,7 +68,10 @@ const config: Config = {
               src: "//gc.zgo.at/count.js",
               async: "true"
             }
-          }],
+          },
+          { tagName: "link", attributes: { rel: "me", href: "https://github.com/2m" } },
+          { tagName: "link", attributes: { rel: "webmention", href: "https://webmention.io/2m.lt/webmention" } }
+          ],
         };
       },
     }),

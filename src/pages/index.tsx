@@ -29,7 +29,6 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <link href="https://github.com/2m" rel="me"></link>
       </main>
     </Layout>
   );
