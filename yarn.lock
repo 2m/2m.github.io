@@ -1326,11 +1326,12 @@
     postcss-sort-media-queries "^5.2.0"
     tslib "^2.6.0"
 
-"@docusaurus/faster@^3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/faster/-/faster-3.6.0.tgz#70540e689fd16e26e6105fe689a1347b8ac93834"
-  integrity sha512-9X06/KHD3f4CKm0SjZQIK3UDE/XvouAMiAlYMPV5LprubFlxVQecZG9QnfOe7VIfUh9IuPiDPuGg17yy0efwww==
+"@docusaurus/faster@^3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@docusaurus/faster/-/faster-3.6.1.tgz#f564abe9904c4132ca32164012f8427270c257c8"
+  integrity sha512-W3a9m7Q/fEeOpOw9/XktLCHRtp1sV2AdZWMCjH3kP1jY1TDyLFFiHJ0+1uwVpOw4/oPJqZSTRKP+IdW4+65NgQ==
   dependencies:
+    "@docusaurus/types" "3.6.1"
     "@rspack/core" "^1.0.14"
     "@swc/core" "^1.7.39"
     "@swc/html" "^1.7.39"
