@@ -7996,10 +7996,10 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   dependencies:
     "@types/react" "*"
 
-react-medium-image-zoom@^5.2.11:
-  version "5.2.11"
-  resolved "https://registry.yarnpkg.com/react-medium-image-zoom/-/react-medium-image-zoom-5.2.11.tgz#f7c8b3b7da77afc9bd24b616d569821d58d5f528"
-  integrity sha512-K3REdn96k2H+6iQlRSl7C7O5lMhdhRx3W1NFJXRar6wMeHpOwp5wI/6N0SfuF/NiKu+HIPxY0FSdvMIJwynTCw==
+react-medium-image-zoom@^5.2.12:
+  version "5.2.12"
+  resolved "https://registry.yarnpkg.com/react-medium-image-zoom/-/react-medium-image-zoom-5.2.12.tgz#8dc41a767d9c5ddf27dfea80bb3e559f84373ed3"
+  integrity sha512-BbQ9jLBFxu6z+viH5tzQzAGqHOJQoYUM7iT1KUkamWKOO6vR1pC33os7LGLrHvOcyySMw74rUdoUCXFdeglwCQ==
 
 react-router-config@^5.1.1:
   version "5.1.1"
