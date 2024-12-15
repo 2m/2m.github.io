@@ -44,6 +44,12 @@
   padding-bottom: 178%;
 }
 
+video {
+  /* override other styles to make responsive */
+  width: 100% !important;
+  height: auto !important;
+}
+
 .embed-container iframe,
 .embed-container object,
 .embed-container embed,

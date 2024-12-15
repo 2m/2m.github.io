@@ -78,7 +78,11 @@ const config: Config = {
           ],
         };
       },
-    }),
+    })
+  ],
+
+  themes: [
+    '@saucelabs/theme-github-codeblock'
   ],
 
   themeConfig: {

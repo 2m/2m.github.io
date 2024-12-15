@@ -11,6 +11,6 @@
     )
     .filter(p => imageExts.contains(p.ext))
     .filterNot(p => p.toString.contains(".small."))
-    .map: p =>
+    .foreach: p =>
       val newPath = p / os.up / s"${p.baseName}.small.${p.ext}"
-      os.proc("magick", p, "-resize", "770x770", "-quality", "99", newPath).call()
+      if !os.exists(newPath) then os.proc("magick", p, "-resize", "770x770", "-quality", "99", newPath).call()

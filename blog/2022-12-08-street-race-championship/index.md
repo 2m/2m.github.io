@@ -24,8 +24,8 @@ The first round was outside of Varėna town. The track was organized on closed o
 The surface was dry, but quite slippery in some places because of the dust. I could feel the car starting to oversteer in the long right-hander.
 
 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gridColumnGap: '0.5rem' }}>
-    <p className='embed-container vertical'><video src={require('./handbrake.mp4').default} controls /></p>
-    <p className='embed-container vertical'><video src={require('./chicanes.mp4').default} controls /></p>
+    <p><video src={require('./handbrake.mp4').default} controls /></p>
+    <p><video src={require('./chicanes.mp4').default} controls /></p>
 </div>
 
 This was my first time driving the car in anger and in unknown conditions. You have 4 attempts, and all of them count. I was way too cautious in some parts of the track, and way too aggressive in others.
