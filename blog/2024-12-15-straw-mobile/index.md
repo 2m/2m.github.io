@@ -6,9 +6,7 @@ authors: [2m]
 tags: [hw, visualization]
 ---
 
-<p class="p-summary">
 For this holiday season my friend had an idea to make a traditional Lithuanian [straw mobile][] but with a twist: lets use a LED strip to make it shine, and lets make it big!
-</p>
 
 [straw mobile]: https://en.wikipedia.org/wiki/Straw_mobile
 
@@ -101,4 +99,4 @@ Now all that was left was to connect everything up and plug it in. We used 250W 
 
 Enjoy the show!
 
-<video src={require('./final.mp4').default} controls />
+<video class="u-video" src={require('./final.mp4').default} controls />
