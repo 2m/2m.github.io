@@ -6,7 +6,9 @@ authors: [2m]
 tags: [hw, visualization]
 ---
 
+<p class="p-summary">
 For this holiday season my friend had an idea to make a traditional Lithuanian [straw mobile][] but with a twist: lets use a LED strip to make it shine, and lets make it big!
+</p>
 
 [straw mobile]: https://en.wikipedia.org/wiki/Straw_mobile
 
