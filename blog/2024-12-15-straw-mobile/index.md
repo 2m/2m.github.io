@@ -46,7 +46,14 @@ The blue lines show additional wires needed to make the graph Eulerian. Red wire
 
 [WLED Calculator]: https://wled-calculator.github.io/
 
-<Img large={require('./power.png').default} small={require('./power.small.png').default} />
+| Injection          | 1        | 2        | 3        | 4        |
+|--------------------|----------|----------|----------|----------|
+| Wire length        | 50 cm    | 150 cm   | 150 cm   | 50 cm    |
+| Wire cross-section | 0.34 mm² | 0.75 mm² | 0.75 mm² | 0.34 mm² |
+| Max current        | 3.61 A   | 7.23 A   | 7.23 A   | 3.61 A   |
+| Fuse rated value   | 5 A      | 10 A     | 10 A     | 5 A      |
+| Fuse color         | tan      | red      | red      | tan      |
+| Max voltage drop   | 0.320 V  | 0.695 V  | 0.695 V  | 0.320 V  |
 
 Now we knew that the graph is Eulerian. After [encoding our graph][] in NetworkX library, it gave us the Eulerian circuit.
 
