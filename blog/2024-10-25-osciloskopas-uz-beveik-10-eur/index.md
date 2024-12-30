@@ -21,8 +21,9 @@ Tokio osciloskopo paleidimas yra labai paprastas:
 3. Prijungiam RPi Pico prie telefono per USB kabelį.
 4. Matuojam.
 
-<Img large={require('./scoppy.png').default} small={require('./scoppy.small.png').default} />
-50Hz dažnio PWM signalas su 10.5% įjungimo laiko
+<Img large={require('./scoppy.png').default} small={require('./scoppy.small.png').default}>
+  50Hz dažnio PWM signalas su 10.5% įjungimo laiko
+</Img>
 
 [scoppy]: https://oscilloscope.fhdm.xyz/wiki/Installation-&-Getting-Started#3-download-and-install-the-firmware
 [Scoppy - Oscilloscope]: https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy

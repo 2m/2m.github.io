@@ -16,15 +16,17 @@ Tačiau Lietuvos gamta, esanti taip šalia, gali pavirsti pažintiniu taku ir be
 
 Mums reiks apylinkės, kurią norime tyrinėti, sportinio žemėlapio. Orientavimosi sportas Lietuvoje turi gilias tradicijas. Dėka šios bendruomenės, turime internetinį puslapį, kuriame galime rasti daugybę smulkių žemėlapių iš įvairių Lietuvos vietų.
 
-<Img large={require('./map.png').default} small={require('./map.small.png').default} />
-[Lietuvos sportinių žemėlapių duomenų bazės puslapis](https://dbsportas.lt/lt/zmlp)
+<Img large={require('./map.png').default} small={require('./map.small.png').default}>
+    [Lietuvos sportinių žemėlapių duomenų bazės puslapis](https://dbsportas.lt/lt/zmlp)
+</Img>
 
 Kiekvienas pažymėtas žalias kvadratas yra vieta, kuriai galime atsidaryti detalų sportinį žemėlapį.
 
 Šį kartą pasirinkime šiek tiek į pietus nuo Vilniaus esantį Akmeniškių žemėlapį.
 
-<Img large={require('./akmeniskes.png').default} small={require('./akmeniskes.small.png').default} />
-[Akmeniškių žemėlapis](https://dbsportas.lt/lt/zmlp/1102)
+<Img large={require('./akmeniskes.png').default} small={require('./akmeniskes.small.png').default}>
+    [Akmeniškių žemėlapis](https://dbsportas.lt/lt/zmlp/1102)
+</Img>
 
 Žemėlapis gali būti ir keletos ar net keliolikos metų senumo. Net ir senesni žemėlapiai ganėtinai tiksliai atspindi vietovę. Kas gali būti pasikeitę, tai tam tikrose vietose iškirstas miško plotas.
 

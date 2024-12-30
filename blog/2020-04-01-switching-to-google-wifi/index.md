@@ -16,21 +16,22 @@ The previous setup had <Technicolor full/> router connected directly to the upli
 
 The upgraded setup has two <GoogleWiFi /> pucks in the same positions as the previous routers with one additional puck in the bedroom.
 
-<Img large={require('./diagram.png').default} small={require('./diagram.small.png').default} />
-[Previous (yellow and blue) and current (red) router placement in the apartment](https://whimsical.com/router-placement-TuMdFmbfohq3SddGyBJtqs)
+<Img large={require('./diagram.png').default} small={require('./diagram.small.png').default}>
+  [Previous (yellow and blue) and current (red) router placement in the apartment](https://whimsical.com/router-placement-TuMdFmbfohq3SddGyBJtqs)
+</Img>
 
 And here are the bandwidth measurements. I used my phone (OnePlus 3T) to run the tests. I used Android apps for both [fast.com](http://fast.com) and [speedtest.net](http://speedtest.net) testing service. The wired connection to the router is 1Gbps so this really tested the connection speed between the phone and the routers.
 
 export const Technicolor = ({children, full}) => (
-  <span style={{backgroundColor: '#f7e7da'}}>Technicolor {full ? 'TG389ac' : null}</span>
+  <span style={{backgroundColor: '#db8e53'}}>&nbsp;Technicolor{full ? ' TG389ac' : null}&nbsp;</span>
 );
 
 export const TpLink = ({children, full}) => (
-  <span style={{backgroundColor: '#d8e6f5'}}>TP-Link {full ? 'N750' : null}</span>
+  <span style={{backgroundColor: '#5992d7'}}>&nbsp;TP-Link{full ? ' N750' : null}&nbsp;</span>
 );
 
 export const GoogleWiFi = ({children}) => (
-  <span style={{backgroundColor: '#f1dbde'}}>Google WiFi</span>
+  <span style={{backgroundColor: '#c96471'}}>&nbsp;Google WiFi&nbsp;</span>
 );
 
 export const Up = ({children}) => (

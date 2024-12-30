@@ -65,3 +65,7 @@ video {
 [data-theme='dark'] .plot-container {
   filter: invert(85%) hue-rotate(180deg);
 }
+
+figure {
+  margin: 0;
+}

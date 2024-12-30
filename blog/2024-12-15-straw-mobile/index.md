@@ -20,7 +20,9 @@ Great thing about this shape is that every edge is of the same length. Lets scal
 
 For the main structure we decided to use aluminum strips inside a dispersive tupe. Mounting LEDs straight on the aluminum strip will help with the heat dispersion and will make the structure more rigid.
 
-<Img large={require('./tube.png').default} small={require('./tube.small.png').default} />
+<Img large={require('./tube.png').default} small={require('./tube.small.png').default}>
+  Main structure of the straw mobile.
+</Img>
 
 For the LEDs we to used the WS2815 led strip. It uses 12V for power and are plenty bright. This led strip is single pixel addressable, as opposed to the more popular WS2811, which usually has pixels grouped in threes.
 
@@ -34,8 +36,9 @@ What we needed to figure out was how to make the LED strip follow the shape of t
 
 There also exists a mathematic proof which states that it is only possible to have such circuit in a graph if all nodes have an even number of edges going to it. And it was not the case for our straw mobile. We needed to add additional wires going inside some of the tubes to make this property hold.
 
-<Img large={require('./sodas.png').default} small={require('./sodas.small.png').default} />
-Mobile straw structure represented as a graph.
+<Img large={require('./sodas.png').default} small={require('./sodas.small.png').default}>
+  Mobile straw structure represented as a graph.
+</Img>
 
 * Node #1 is the very top one
 * Nodes #2, #3, #4, #5 are the second layer

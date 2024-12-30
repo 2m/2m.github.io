@@ -14,15 +14,17 @@ There are a couple of already documented ways to get gas meter readings into Hom
 
 Then I found [an article][photo] that uses a photoresistor to track the reflective patch on one of the numbers of the gas meter number row. But I never gave this one a try.
 
-<Img large={require('./reflective_patch.png').default} small={require('./reflective_patch.small.png').default} />
-Reflective patch on the gas meter last number
+<Img large={require('./reflective_patch.png').default} small={require('./reflective_patch.small.png').default}>
+  Reflective patch on the gas meter last number
+</Img>
 
 After playing around with the [Physics Toolbox Sensor Suite][sensors] Android application it became obvious that magnetic field is quite strong and the same magnetic field that should flip the reed switch could be measured quite precicely with a magnetometer.
 
 After taking a quick look at [magnetic field sensors][esphome-magnetic] that are supported by ESPHome, I found `QMC5883L` that is supported and easily accessible.
 
-<Img large={require('./mag_sensor.png').default} small={require('./mag_sensor.small.png').default} />
-Magnetic field sensor attached to the outside of the gas meter with a double sided tape
+<Img large={require('./mag_sensor.png').default} small={require('./mag_sensor.small.png').default}>
+  Magnetic field sensor attached to the outside of the gas meter with a double sided tape
+</Img>
 
 [The setup][qmc5883l] for this sensor is quick and straight-to-the-point, as it always is with ESPHome.
 
