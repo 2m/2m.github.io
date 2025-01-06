@@ -7,6 +7,9 @@ process:
 install:
     yarn install
 
+upgrade:
+    yarn upgrade --all
+
 build:
     yarn build
 
