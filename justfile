@@ -4,6 +4,9 @@ dev:
 process:
     scala ProcessImages.scala
 
+clean-scala-build:
+    rm -rf .scala-build/
+
 install:
     yarn install
 

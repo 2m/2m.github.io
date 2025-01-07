@@ -56,7 +56,8 @@ Turint rankose, ar telefone žemėlapį galime atvykti iki žemėlapyje aprašyt
 
 Savo nueitą kelią galime užfiksuoti [Wikiloc](https://www.wikiloc.com/) programėlėje. Padėsime kitiems nuotykių ieškotojams atrasti šį naują gamtos pažintinį taką.
 
-<Img large={require('./wikiloc.png').default} small={require('./wikiloc.small.png').default} />
-[Wikiloc užfiksuotas kelias](https://www.wikiloc.com/trail-running-trails/akmeniskes-59741388)
+<Img large={require('./wikiloc.png').default} small={require('./wikiloc.small.png').default}>
+    [Wikiloc užfiksuotas kelias](https://www.wikiloc.com/trail-running-trails/akmeniskes-59741388)
+</Img>
 
 Smagaus pažinimo!
