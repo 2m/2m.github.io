@@ -10,7 +10,7 @@ export function Img({ children, style, large, small }) {
             <Zoom zoomImg={{ src: large, }} classDialog={styles.dialog}>
                 <img src={small} />
             </Zoom>
-            <figcaption className={styles.caption}>
+            <figcaption>
                 {children}
             </figcaption>
         </figure>
@@ -28,7 +28,7 @@ export function ImgGallery({ children, images }) {
     return (
         <figure className={styles.sidebyside}>
             {zoomable}
-            <figcaption className={styles.caption}>
+            <figcaption>
                 {children}
             </figcaption>
         </figure>

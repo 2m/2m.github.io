@@ -2,7 +2,7 @@
 
 @main def main() =
   val skipDirs = List("build", "node_modules", "/.")
-  val imageExts = List("png", "jpg")
+  val imageExts = List("png", "jpg", "webp")
 
   val wd = os
     .walk(

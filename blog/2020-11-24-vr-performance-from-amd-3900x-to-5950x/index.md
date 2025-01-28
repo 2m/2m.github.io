@@ -33,20 +33,36 @@ This is the conservative configuration which allows me to keep 90FPS in almost a
 I used to get some parts of Barcelona circuit that would drop to &lt;90FPS with the old CPU.
 However the 5950x does not do that any more. As you can see from the graphs, with 5950x both GPU and CPU frametime 99.9 percentile is way below the limit.
 
-<MediumFrametime />
-<p style={{display: "flex", justifyContent: "space-between"}}><span>Frametimes</span>[Larger Size](/vr-performance-from-amd-3900x-to-5950x/medium_frametime)</p>
+<figure>
+  <MediumFrametime />
+  <figcaption>
+    Frametimes [Larger Size](/vr-performance-from-amd-3900x-to-5950x/medium_frametime)
+  </figcaption>
+</figure>
 
-<MediumUtil />
-<p style={{display: "flex", justifyContent: "space-between"}}><span>Utilization</span>[Larger Size](/vr-performance-from-amd-3900x-to-5950x/medium_util)</p>
+<figure>
+  <MediumUtil />
+  <figcaption>
+    Utilization [Larger Size](/vr-performance-from-amd-3900x-to-5950x/medium_util)
+  </figcaption>
+</figure>
 
 Second run was done using high quality graphics.
 
 <Img large={require('./high_settings.png').default} small={require('./high_settings.small.png').default} />
 
-<HighFrametime />
-<p style={{display: "flex", justifyContent: "space-between"}}><span>Frametimes</span>[Larger Size](/vr-performance-from-amd-3900x-to-5950x/high_frametime)</p>
+<figure>
+  <HighFrametime />
+  <figcaption>
+    Frametimes [Larger Size](/vr-performance-from-amd-3900x-to-5950x/high_frametime)
+  </figcaption>
+</figure>
 
-<HighUtil />
-<p style={{display: "flex", justifyContent: "space-between"}}><span>Utilization</span>[Larger Size](/vr-performance-from-amd-3900x-to-5950x/high_util)</p>
+<figure>
+  <HighUtil />
+  <figcaption>
+    Utilization [Larger Size](/vr-performance-from-amd-3900x-to-5950x/high_util)
+  </figcaption>
+</figure>
 
 Obviously here the GPU is the bottleneck. But even here, CPU upgrade still helps to deliver quite a few more frames with low frametimes.

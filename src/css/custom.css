@@ -69,3 +69,14 @@ video {
 figure {
   margin: 0;
 }
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  grid-column: 1 / -1;
+}
+
+.plugin-pages main {
+  max-width: initial !important;
+}
