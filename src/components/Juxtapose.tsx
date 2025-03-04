@@ -14,16 +14,16 @@ export default function Juxtapose({ children, itemOne, labelOne, itemTwo, labelT
         <ReactCompareSlider
             portrait
             itemOne={
-                <div>
+                <>
                     <div style={labelStyle}>{labelOne}</div>
                     <ReactCompareSliderImage src={itemOne} />
-                </div>
+                </>
             }
             itemTwo={
-                <div>
+                <>
                     <div style={{ ...labelStyle, bottom: 0 }}>{labelTwo}</div>
                     <ReactCompareSliderImage src={itemTwo} />
-                </ div>
+                </>
             }
         />
     );
