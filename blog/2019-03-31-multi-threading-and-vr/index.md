@@ -18,9 +18,11 @@ This was originally posted on 2019-03-31 on [iRacing subreddit][reddit-post]
 TLDR: turning off HyperThreading in BIOS bumped up FPS in VR from ~60 during starts to solid 90.
 :::
 
-I have just recently started iRacing and this week I was racing quite a bit in the Lime Rock Park with MX-5. Unfortunately I used to get around 60 FPS during starts and that is a very tense part of the race. Every frame counts during those moments. Since I have a pretty decent system, I though I should be able to get more FPS in VR. My relevant PC specs are:
+I have just recently started iRacing and this week I was racing quite a bit in the Lime Rock Park with MX-5. Unfortunately I used to get around 60 FPS during starts and that is a very tense part of the race. Every frame counts during those moments. Since I have a pretty decent system, I though I should be able to get more FPS in VR.
 
-Intel i7-4790K, 32GB Ram, Radeon VII and Samsung Odyssey+
+<!-- truncate -->
+
+My relevant PC specs are: `Intel i7-4790K, 32GB Ram, Radeon VII and Samsung Odyssey+`.
 
 First I turned down most of the graphics settings in iRacing. But even if turning off cubemaps and shadows would bump the FPS quite a bit, it was still far from solid 90. Then I noticed that some parts of the track are fine, but others are still choppy. Turning off Event Objects, Crowds and Grandstands helped with that a bit, but still no cigar.
 
