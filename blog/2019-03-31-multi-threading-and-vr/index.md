@@ -52,7 +52,7 @@ import Utilization from "../../src/pages/multi-threading-and-vr/util.md"
 </figure>
 
 |                                               | HT on     | HT off    |
-|-----------------------------------------------|-----------|-----------|
+| --------------------------------------------- | --------- | --------- |
 | Delivered fps                                 | 84.47     | 88.76     |
 | GPU Frametimes median                         | 7.7 ms    | 7.8 ms    |
 | GPU Frametimes 99th percentile                | 10.7 ms   | 9.5 ms    |

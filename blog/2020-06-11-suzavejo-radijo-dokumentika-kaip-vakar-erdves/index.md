@@ -24,4 +24,6 @@ Apie gyvenimą kaime:
 
 > Tai jeigu yra gera bibliotekininkė, viskas kaime yra gerai. Tada kaimas grąžina knygas.
 
-Siūlau paklausyti ir šypsotis kartu: https://pca.st/84agxfy4
+Siūlau paklausyti ir šypsotis kartu: [podcast][]
+
+[podcast]: https://pca.st/84agxfy4

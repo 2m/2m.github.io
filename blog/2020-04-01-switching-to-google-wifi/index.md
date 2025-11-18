@@ -46,22 +46,26 @@ export const Same = ({children}) => (
   <IIcon icon="material-symbols:equal" />
 );
 
-| Spot    | Test                  | Router          | Downlink              | Uplink               |
-|---------|-----------------------|-----------------|-----------------------|----------------------|
-| Kitchen | https://fast.com      | <Technicolor /> | 33 Mbps               | 33 Mbps              |
-| Kitchen | https://fast.com      | <GoogleWiFi />  | 34 Mbps 103% <Up />   | 39 Mbps 118% <Up />  |
-| Kitchen | https://speedtest.net | <Technicolor /> | 37 Mbps               | 47 Mbps              |
-| Kitchen | https://speedtest.net | <GoogleWiFi />  | 37 Mbps 100% <Same /> | 46 Mbps 98% <Down /> |
-| Library | https://fast.com      | <TpLink />      | 20 Mbps               | 8 Mbps               |
-| Library | https://fast.com      | <GoogleWiFi />  | 34 Mbps 170% <Up />   | 32 Mbps 400% <Up />  |
-| Library | https://speedtest.net | <TpLink />      | 23 Mbps               | 8 Mbps               |
-| Library | https://speedtest.net | <GoogleWiFi />  | 37 Mbps 160% <Up />   | 41 Mbps 513% <Up />  |
-| Bedroom | https://fast.com      | <TpLink />      | 17 Mbps               | 8 Mbps               |
-| Bedroom | https://fast.com      | <GoogleWiFi />  | 15 Mbps 88% <Down />  | 21 Mbps 263% <Up />  |
-| Bedroom | https://speedtest.net | <TpLink />      | 16 Mbps               | 12 Mbps              |
-| Bedroom | https://speedtest.net | <GoogleWiFi />  | 17 Mbps 106% <Up />   | 30 Mbps 250% <Up />  |
+| Spot    | Test        | Router          | Downlink              | Uplink               |
+| ------- | ----------- | --------------- | --------------------- | -------------------- |
+| Kitchen | [fast]      | <Technicolor /> | 33 Mbps               | 33 Mbps              |
+| Kitchen | [fast]      | <GoogleWiFi />  | 34 Mbps 103% <Up />   | 39 Mbps 118% <Up />  |
+| Kitchen | [speedtest] | <Technicolor /> | 37 Mbps               | 47 Mbps              |
+| Kitchen | [speedtest] | <GoogleWiFi />  | 37 Mbps 100% <Same /> | 46 Mbps 98% <Down /> |
+| Library | [fast]      | <TpLink />      | 20 Mbps               | 8 Mbps               |
+| Library | [fast]      | <GoogleWiFi />  | 34 Mbps 170% <Up />   | 32 Mbps 400% <Up />  |
+| Library | [speedtest] | <TpLink />      | 23 Mbps               | 8 Mbps               |
+| Library | [speedtest] | <GoogleWiFi />  | 37 Mbps 160% <Up />   | 41 Mbps 513% <Up />  |
+| Bedroom | [fast]      | <TpLink />      | 17 Mbps               | 8 Mbps               |
+| Bedroom | [fast]      | <GoogleWiFi />  | 15 Mbps 88% <Down />  | 21 Mbps 263% <Up />  |
+| Bedroom | [speedtest] | <TpLink />      | 16 Mbps               | 12 Mbps              |
+| Bedroom | [speedtest] | <GoogleWiFi />  | 17 Mbps 106% <Up />   | 30 Mbps 250% <Up />  |
+
+[fast]: https://fast.com
+[speedtest]: https://speedtest.net
 
 Some interesting findings:
+
 * there is only a little improvement in the uplink when connected directly to the router that is wired upstream
 * there is a considerable improvement when connected to the router one wireless hop away from the wired router
 * there is a reasonable improvement when connected to the router two wireless hops away in the new setup compared to being connected to a router one wireless hop away in the old setup

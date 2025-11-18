@@ -24,15 +24,12 @@ jobs:
     - uses: actions/checkout@v5
     - uses: extractions/setup-just@v3
 
+    - uses: pnpm/action-setup@v4
+
     - uses: actions/setup-node@v6
       with:
         node-version: 20
-    - run: |
-        corepack enable &&
-        corepack install # use the in-repo yarn version
-    - uses: actions/setup-node@v6
-      with:
-        cache: "yarn"
+        cache: "pnpm"
 
     - run: just install
     - run: just build

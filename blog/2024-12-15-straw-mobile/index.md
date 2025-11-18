@@ -50,7 +50,7 @@ The blue lines show additional wires needed to make the graph Eulerian. Red wire
 [WLED Calculator]: https://wled-calculator.github.io/
 
 | Injection          | 1        | 2        | 3        | 4        |
-|--------------------|----------|----------|----------|----------|
+| ------------------ | -------- | -------- | -------- | -------- |
 | Wire length        | 50 cm    | 150 cm   | 150 cm   | 50 cm    |
 | Wire cross-section | 0.34 mm² | 0.75 mm² | 0.75 mm² | 0.34 mm² |
 | Max current        | 3.61 A   | 7.23 A   | 7.23 A   | 3.61 A   |

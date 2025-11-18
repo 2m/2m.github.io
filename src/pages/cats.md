@@ -2,7 +2,7 @@
 title: C.A.T.S
 ---
 
-# C.A.T.S.
+# C.A.T.S
 
 Cooperative autonomous tracking system. Doing serious networking, math and engineering while playing with Lego.
 

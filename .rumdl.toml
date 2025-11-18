@@ -1,0 +1,13 @@
+[global]
+disable = [
+    "MD013", # line length
+    "MD033", # inline HTML
+    "MD041", # first line in file should be h1
+]
+
+[MD060]
+enabled = true
+style = "aligned"
+
+[MD013]
+line-length = 9999999999

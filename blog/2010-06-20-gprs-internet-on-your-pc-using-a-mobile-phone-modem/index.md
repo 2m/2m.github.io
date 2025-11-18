@@ -23,7 +23,9 @@ I have three modems here. I have tried all of my mobile phones and modem driver 
 
 The port that I want to use happens to be COM27. So fire up puTTY, select Serial as connection type, type in COM27 as serial line and click Open. Black screen will show up. To test the connection type in `AT` and press enter. If `OK` shows up you are good to go. Note that some mobile phones require a confirmation when someone is trying to access their modem through Bluetooth or USB.
 
-The mighty command (I found it [here](https://web.archive.org/web/20110616113815/http://www.shapeshifter.se/2008/04/30/list-of-at-commands/)) that you have to enter is: `AT+CGDCONT=1,"IP","<YOUR GPRS APN>"`. I do not really know why does this do the trick, but it does. (: If you did everything right `OK` will show up. You can check if this information is saved by typing in `AT+CGDCONT?`. I have noticed that this information stays saved even between mobile reboots. So it seems that you only have to do this once.
+The mighty command (I found it [on this blogpost][]) that you have to enter is: `AT+CGDCONT=1,"IP","<YOUR GPRS APN>"`. I do not really know why does this do the trick, but it does. (: If you did everything right `OK` will show up. You can check if this information is saved by typing in `AT+CGDCONT?`. I have noticed that this information stays saved even between mobile reboots. So it seems that you only have to do this once.
+
+[on this blogpost]: https://web.archive.org/web/20110616113815/http://www.shapeshifter.se/2008/04/30/list-of-at-commands/
 
 <Img large={require('./modem_putty.png').default} small={require('./modem_putty.small.png').default} />
 

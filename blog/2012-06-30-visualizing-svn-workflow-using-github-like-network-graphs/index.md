@@ -16,4 +16,4 @@ Luckily i found a [raphaeljs](http://raphaeljs.com/) (JavaScript library for vec
   SVN workflow visualized as a GitHub-like network graph
 </Img>
 
-You can find the changes I made [here](https://github.com/2m/svn-workflow). You can also find the source code of the original raphaeljs GitHub demo [here](https://github.com/DmitryBaranovskiy/raphaeljs.com).
+You can find the changes I made [in this repo](https://github.com/2m/svn-workflow). You can also take a look at the [source code](https://github.com/DmitryBaranovskiy/raphaeljs.com) of the original raphaeljs GitHub demo.

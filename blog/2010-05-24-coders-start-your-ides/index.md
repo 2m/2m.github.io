@@ -56,7 +56,7 @@ During the next week I will be working on the charts for the query results. This
 
 This week was spent implementing charts for the query results. As mentioned in my latest blog post I implemented rendering charts for the query results in two formats.
 
-The branch that I am working on is available [here](https://demo.phpmyadmin.net/gsoc-blinky/). Unfortunately charts are broken there, even they work on my local web server. I have yet to find what is wrong.
+The branch that I am working on is available [in this repository](https://demo.phpmyadmin.net/gsoc-blinky/). Unfortunately charts are broken there, even they work on my local web server. I have yet to find what is wrong.
 
 This week was a very short week for us Lithuanians. On Thursday and Friday we have celebrated mid-summer which is a national holiday here. I will be taking the next week off because I will attend at social experiment.
 
@@ -94,7 +94,7 @@ Talking about charts (: I was thinking about and looking at flot library for cha
 
 Now I am going back to tinker around with details and some bugs that are still there.
 
-BTW. You can test out the chart functionality [here](https://demo.phpmyadmin.net/gsoc-blinky/). Just go the the status page and you will see nice looking pie chart. It is harder to test query results charts because you need some data which script does understand.
+BTW. You can test out the [chart functionality here](https://demo.phpmyadmin.net/gsoc-blinky/). Just go the the status page and you will see nice looking pie chart. It is harder to test query results charts because you need some data which script does understand.
 
 ### 2010-07-31 Week #10
 
@@ -104,7 +104,7 @@ I have solved the base64 image length problem that I described in my last post. 
 
 I have tested various trivial cases for tables and checked if query results work on them. There was some tweaking to be done for these cases.
 
-I also documented some work I have done in the wiki. You can find it [here](https://docs.phpmyadmin.net/en/latest/charts.html). There is also a format documented that is accepted for query results charts. You can see the preparations that need to be done for your data if you want to put it to the chart.
+I also documented some work I have done [in the wiki](https://docs.phpmyadmin.net/en/latest/charts.html). There is also a format documented that is accepted for query results charts. You can see the preparations that need to be done for your data if you want to put it to the chart.
 
 I have also merged master to my fork. There was only one minor conflict. This actually means that I am not changing PMA code much. I am just adding some new.
 
