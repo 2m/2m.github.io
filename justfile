@@ -1,5 +1,5 @@
 dev:
-    yarn run start
+    pnpm run start
 
 process:
     scala ProcessImages.scala
@@ -8,13 +8,13 @@ clean-scala-build:
     rm -rf .scala-build/
 
 install:
-    yarn install
+    pnpm install
 
 upgrade:
-    yarn upgrade --all
+    pnpm upgrade --all
 
 build:
-    yarn build
+    pnpm build
 
 serve:
     cd build; python3 -m http.server 3000
