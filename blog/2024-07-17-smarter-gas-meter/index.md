@@ -52,7 +52,7 @@ i2c:
   scan: true
 ```
 
-Looking at the data from the sensor, Z axis was the most sensitive to the magnetic field changes. A `threshold` integration in Home Assistant can be used to detect when the magnetic field changes significantly - detecting a full wheel rotation.
+Looking at the data from the sensor, Z axis was the most sensitive to the magnetic field changes. A [`threshold`][] integration in Home Assistant can be used to detect when the magnetic field changes significantly - detecting a full wheel rotation.
 
 ```yaml
 binary_sensor:
@@ -112,7 +112,7 @@ For comments and any questions feel free to reach out on [Mastodon][mastodon].
 [sensors]:          https://play.google.com/store/apps/details?id=com.chrystianvieyra.physicstoolboxsuite
 [esphome-magnetic]: https://esphome.io/#magnetic
 [qmc5883l]:         https://esphome.io/components/sensor/qmc5883l
-[threshold]:        https://www.home-assistant.io/integrations/threshold/
+[`threshold`]:       https://www.home-assistant.io/integrations/threshold/
 [esphome-config]:   https://github.com/2m/hassio-config/blob/f6554696c6bcd28d67d2c2d8fa43e7663261ad36/esphome/gas-meter.yaml
 [t-display]:        https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board
 [mastodon]:         https://mastodon.social/@dvim/112803731282729723

@@ -33,7 +33,7 @@ Kiekvienas pažymėtas žalias kvadratas yra vieta, kuriai galime atsidaryti det
 Mūsų tikslui būs svarbūs keli žemėlapyje esantys sutartiniai ženklai:
 
 | Ženklas                 | Reikšmė                           | Žemėlapis                                                                                               |
-|-------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------|
+| ----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | juoda punktyrinė linija | keliukas                          | <Img large={require('./misko_takas.png').default} small={require('./misko_takas.small.png').default} /> |
 | balta                   | gerai pereinamas miškas           | <Img large={require('./miskas.png').default} small={require('./miskas.small.png').default} />           |
 | ruda                    | pieva, atviras laukas             | <Img large={require('./pieva.png').default} small={require('./pieva.small.png').default} />             |
@@ -41,7 +41,7 @@ Mūsų tikslui būs svarbūs keli žemėlapyje esantys sutartiniai ženklai:
 
 Lengviausia žygiuoti ir tyrinėti gamtą einant takeliais. Tačiau labai smagu pasileisti per ruda spalvas pažymėtas pievas arba įbristi į tamsų balta spalva pažymėtą eglyną.
 
-Daugiau apie žemėlapyje esančius sutartinius ženklus galima sužinoti Lietuvos Orientavimosi Sporto Federacijos puslapyje: https://orienteering.lt/naujokams/os-pagrindai/
+Daugiau apie žemėlapyje esančius sutartinius ženklus galima sužinoti [Lietuvos Orientavimosi Sporto Federacijos puslapyje](https://orienteering.lt/naujokams/os-pagrindai/).
 
 Turint rankose, ar telefone žemėlapį galime atvykti iki žemėlapyje aprašytos vietos ir pasileisti į nuotykį.
 

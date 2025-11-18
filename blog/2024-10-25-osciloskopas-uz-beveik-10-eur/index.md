@@ -27,4 +27,3 @@ Tokio osciloskopo paleidimas yra labai paprastas:
 
 [scoppy]: https://oscilloscope.fhdm.xyz/wiki/Installation-&-Getting-Started#3-download-and-install-the-firmware
 [Scoppy - Oscilloscope]: https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy
-

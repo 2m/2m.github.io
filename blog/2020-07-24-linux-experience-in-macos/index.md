@@ -71,7 +71,9 @@ VS Code also has support for that:
 
 I am also used to moving around editable text with <kbd>Ctrl</kbd> + <kbd>Arrow</kbd> key. Also possibly selecting part of the text while holding the <kbd>Shift</kbd> key.
 
-I found quite an old article that explained how to enable these key bindings in macOS: http://heisencoder.net/2008/04/fixing-up-mac-key-bindings-for-windows.html
+I found quite an old [article][] that explained how to enable these key bindings in macOS.
+
+[article]: http://heisencoder.net/2008/04/fixing-up-mac-key-bindings-for-windows.html
 
 I was happy to find that after 12 years, this solution still works. This is the config file, that did the trick:
 
@@ -187,4 +189,4 @@ shell = "/usr/bin/fish"
 ...
 ```
 
-I keep all of my Linux and macOS dotfiles in a single publicly accessible repository. Do not hesitate to take a look: https://github.com/2m/dotfiles
+I keep all of my Linux and macOS dotfiles in a single [publicly accessible repository](https://github.com/2m/dotfiles). Do not hesitate to take a look.

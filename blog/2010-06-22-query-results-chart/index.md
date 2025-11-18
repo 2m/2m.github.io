@@ -17,7 +17,7 @@ I decided to introduce two (for now) query result formats that must be followed 
 For now I will be talking about two types of charts: simple bar charts and stacked bar charts. For the simple bar chart we need to provide X and Y axis value pairs, something in a lines of this:
 
 | Month   | Sum  |
-|---------|------|
+| ------- | ---- |
 | 2009-11 | 225  |
 | 2009-12 | 1157 |
 | 2010-01 | 569  |
@@ -28,7 +28,7 @@ For now I will be talking about two types of charts: simple bar charts and stack
 Now this is easy. What if we know that the total amount on every month is composed of different parts and we would like to see them in the chart as well. For this we will have to add another column which specifies which component the data belongs to. This breaks the monolithic bars into the bars composed of series of data.
 
 | Month   | Sum | Operator |
-|---------|-----|----------|
+| ------- | --- | -------- |
 | 2009-11 | 129 | Bite     |
 | 2009-11 | 40  | Omnitel  |
 | 2009-11 | 56  | Tele2    |
