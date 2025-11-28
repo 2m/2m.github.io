@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+  <title>My feeds</title>
+</head>
+<body>
+<outline text="Feeds" title="Feeds">
+  <outline title="Remains of the Day" category="life" type="rss" xmlUrl="https://www.eugenewei.com/blog?format=rss" />
+  <outline title="www.linusakesson.net" category="hacks" type="rss" xmlUrl="http://www.linusakesson.net/rssfeed.php" />
+  <outline title="the morning paper" category="computer-science" type="rss" xmlUrl="https://blog.acolyer.org/feed/" />
+  <outline title="Raph Levien’s blog" category="computer-science" type="rss" xmlUrl="https://raphlinus.github.io/feed.xml" />
+  <outline title="in Code — Entries" category="prog-lang" type="rss" xmlUrl="http://feeds.feedburner.com/incodeblog" />
+  <outline title="Paul Chiusano's blog" category="prog-lang" type="rss" xmlUrl="http://pchiusano.github.io/feed.xml" />
+  <outline title="Procrastineering - Project blog for Johnny Chung Lee" category="vr" type="rss" xmlUrl="http://procrastineering.blogspot.com/feeds/posts/default?alt=rss" />
+  <outline title="Evil Trout’s Blog" category="games" type="rss" xmlUrl="https://eviltrout.com/feed.xml" />
+  <outline title="xkcd.com" category="life" type="rss" xmlUrl="https://xkcd.com/atom.xml" />
+  <outline title="Farnam Street" category="business" type="rss" xmlUrl="http://feeds.feedburner.com/68131" />
+  <outline title="Aphyr: Posts" category="hacks" type="rss" xmlUrl="https://aphyr.com/posts.atom" />
+  <outline title="Colin Breck" category="linux" type="rss" xmlUrl="https://blog.colinbreck.com/rss/" />
+  <outline title="Yifan Lu" category="hacks" type="rss" xmlUrl="http://yifan.lu/feed.xml" />
+  <outline title="DDI" category="computer-science" type="rss" xmlUrl="https://michaelnielsen.org/ddi/feed/" />
+  <outline title="n-gate.com." category="life" type="rss" xmlUrl="http://n-gate.com/index.rss" />
+  <outline title="Doc-Ok.org" category="vr" type="rss" xmlUrl="http://doc-ok.org/?feed=rss2" />
+  <outline title="Matt Might's blog" category="life" type="rss" xmlUrl="http://matt.might.net/articles/feed.rss" />
+  <outline title="Errata Security" category="security" type="rss" xmlUrl="http://erratasec.blogspot.com/feeds/posts/default" />
+  <outline title="Nick's Blog" category="electronics" type="rss" xmlUrl="http://blog.notdot.net/feeds/atom.xml" />
+  <outline title="The Java(tm) Specialists' Newsletter" category="jvm" type="rss" xmlUrl="https://www.javaspecialists.eu/archive/tjsn.rss" />
+  <outline title="apenwarr" category="life" type="rss" xmlUrl="https://apenwarr.ca/log/rss.php" />
+  <outline title="absorptions" category="radio" type="rss" xmlUrl="https://www.windytan.com/feeds/posts/default" />
+  <outline title="A Few Thoughts on Cryptographic Engineering" category="security" type="rss" xmlUrl="http://blog.cryptographyengineering.com/feeds/posts/default" />
+  <outline title="Scattered Thoughts on Distributed Systems" category="computer-science" type="rss" xmlUrl="https://pathelland.substack.com/feed" />
+  <outline title="Richard Gendal Brown" category="finance" type="rss" xmlUrl="http://gendal.wordpress.com/feed/" />
+  <outline title="Android Developers Blog" category="android" type="rss" xmlUrl="http://android-developers.blogspot.com/feeds/posts/default" />
+  <outline title="Antlion Audio - News" category="technology" type="rss" xmlUrl="http://www.modmic.com/blogs/news.atom" />
+  <outline title="Maps Mania" category="mapping" type="rss" xmlUrl="http://googlemapsmania.blogspot.com/feeds/posts/default" />
+  <outline title="OverOps" category="jvm" type="rss" xmlUrl="http://www.takipiblog.com/feed/" />
+  <outline title="Sheepo's Garage" category="life" type="rss" xmlUrl="http://www.sheepo.es/feeds/posts/default" />
+  <outline title="Reading, Writing and Arithmetic" category="radio" type="rss" xmlUrl="http://i-miss-erin.blogspot.com/feeds/posts/default" />
+  <outline title="LaForge's home page" category="hacks" type="rss" xmlUrl="http://laforge.gnumonks.org/weblog/index.rss" />
+  <outline title="Ironic Blog" category="rust" type="rss" xmlUrl="http://nercury.github.io/feed.xml" />
+  <outline title="wemakethings" category="makers" type="rss" xmlUrl="https://wemakethings.net/atom.xml" />
+  <outline title="mossmann's blog" category="radio" type="rss" xmlUrl="http://ossmann.blogspot.com/feeds/posts/default" />
+  <outline title="g3gg0.de" category="hacks" type="rss" xmlUrl="https://www.g3gg0.de/wordpress/feed/" />
+  <outline title="Tinyhack.com" category="hacks" type="rss" xmlUrl="http://tinyhack.com/feed/" />
+  <outline title="LSDBase" category="life" type="rss" xmlUrl="http://lsdbase.org/feed/" />
+  <outline title="OGRE – Open Source 3D Graphics Engine" category="games" type="rss" xmlUrl="https://www.ogre3d.org/feed" />
+  <outline title="opit" category="education" type="rss" xmlUrl="https://opit.tumblr.com/rss" />
+  <outline title="Simonas Bartkus | Blog" category="aviation" type="rss" xmlUrl="http://feeds2.feedburner.com/simonasbartkus" />
+  <outline title="slightly more than worthless" category="linux" type="rss" xmlUrl="http://slightlymorethanworthless.blogspot.com/feeds/posts/default" />
+  <outline title="Rigs of Rods" category="games" type="rss" xmlUrl="http://rigsofrods.blogspot.com/feeds/posts/default?alt=rss" />
+  <outline title="Tsuna's blog" category="linux" type="rss" xmlUrl="https://blog.tsunanet.net/feeds/posts/default" />
+  <outline title="Laid Back Touring" category="travel" type="rss" xmlUrl="http://laidbacktouring.blogspot.com/feeds/posts/default" />
+  <outline title="maltanar's scribbles" category="computer-science" type="rss" xmlUrl="http://maltanar.blogspot.com/feeds/posts/default?alt=rss" />
+  <outline title="Blogs on fabiorehm.com" category="linux" type="rss" xmlUrl="http://feeds.feedburner.com/fabio-rehm?format=xml" />
+  <outline title="Cryptic Sea" category="games" type="rss" xmlUrl="http://crypticsea.blogspot.com/feeds/posts/default?alt=rss" />
+  <outline title="we are comma.ai" category="technology" type="rss" xmlUrl="https://commaai.blogspot.com/feeds/posts/default?alt=rss" />
+  <outline title="Michele's GNSS blog" category="gnss" type="rss" xmlUrl="http://michelebavaro.blogspot.com/feeds/posts/default" />
+  <outline title="OpenClonk Blog" category="games" type="rss" xmlUrl="https://blog.openclonk.org/feed/" />
+  <outline title="SirVer's Blog" category="games" type="rss" xmlUrl="https://www.sirver.net/blog/feed/index.xml" />
+  <outline title="Code Impossible" category="jvm" type="rss" xmlUrl="http://arhipov.blogspot.com/feeds/posts/default" />
+  <outline title="The Sunny View" category="thinkers" type="rss" xmlUrl="https://thesunnyview.home.blog/feed/" />
+  <outline title="" category="life" type="rss" xmlUrl="https://feeds.feedburner.com/JISCBlog" />
+  <outline title="Subnautica" category="games" type="rss" xmlUrl="http://unknownworlds.com/subnautica/feed/" />
+  <outline title="Psychosomatic, Lobotomy, Saw" category="jvm" type="rss" xmlUrl="http://psy-lob-saw.blogspot.com/feeds/posts/default" />
+  <outline title="Malcolm Faed's  Blog" category="electronics" type="rss" xmlUrl="https://malfunction.faed.name/feeds/posts/default" />
+  <outline title="Mandubian Blog" category="jvm" type="rss" xmlUrl="http://mandubian.com/atom.xml" />
+  <outline title="Savel Brain Dump" category="electronics" type="rss" xmlUrl="https://www.vabolis.lt/feed/atom/" />
+  <outline title="the broken symlink" category="linux" type="rss" xmlUrl="http://nullroute.eu.org/~grawity/journal.atom" />
+  <outline title="Dieter Spaar's blog" category="hacks" type="rss" xmlUrl="http://www.mirider.com/weblog/index.rss" />
+  <outline title="Konstanta-42" category="education" type="rss" xmlUrl="https://www.konstanta.lt/feed/" />
+  <outline title="mishadoff thoughts" category="prog-lang" type="rss" xmlUrl="http://mishadoff.github.io/atom.xml" />
+  <outline title="opit" category="education" type="rss" xmlUrl="http://blog.hardcore.lt/opit/index.rdf" />
+  <outline title="Andrius Užkalnis. Protokolai." category="thinkers" type="rss" xmlUrl="http://uzkalnis.popo.lt/feed/" />
+  <outline title="SteveStreeting.com" category="games" type="rss" xmlUrl="https://feeds.feedburner.com/stevestreeting" />
+  <outline title="Mike Blumenkrantz" category="computer-science" type="rss" xmlUrl="https://www.supergoodcode.com/feed.xml" />
+  <outline title="Elena Krukonytė" category="art" type="rss" xmlUrl="https://elenakrukonyte.com/rss" />
+  <outline title="Motiejus Jakštys Public Record" category="makers" type="rss" xmlUrl="https://jakstys.lt/rss.xml" />
+  <outline title="Ashton Wiersdorf on Lambda Land" category="computer-science" type="rss" xmlUrl="https://lambdaland.org/index.xml" />
+  <outline title="Tor Project blog" category="security" type="rss" xmlUrl="https://blog.torproject.org/blog/feed" />
+  <outline title="Tachibana Kanade" category="travel" type="rss" xmlUrl="https://tachibanakana.day/feed.xml" />
+  <outline title="On Life and Lisp" category="technology" type="rss" xmlUrl="https://rosenzweig.io/feed.xml" />
+  <outline title="" category="visual" type="rss" xmlUrl="https://samwho.dev/rss.xml" />
+  <outline title="Įrašai on Dar vieno analitiko svetainė" category="thinkers" type="rss" xmlUrl="https://petras.kudaras.lt/feed.xml" />
+  <outline title="Radicle: the sovereign forge" category="technology" type="rss" xmlUrl="https://radicle.xyz/feed.xml" />
+  <outline title="Abort, Retry, Fail" category="technology" type="rss" xmlUrl="https://www.abortretry.fail/feed" />
+  <outline title="gilest.org" category="life" type="rss" xmlUrl="https://gilest.org/feed/index.xml" />
+  <outline title="Matt" category="technology" type="rss" xmlUrl="https://write.as/matt/feed/" />
+</outline>
+</body>
+</opml>

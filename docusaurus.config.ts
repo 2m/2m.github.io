@@ -98,6 +98,7 @@ const config: Config = {
       title: '2m',
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/feeds', label: 'Feeds', position: 'left' },
         {
           href: 'https://github.com/2m/2m.github.io',
           label: 'GitHub',
