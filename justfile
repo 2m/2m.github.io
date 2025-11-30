@@ -2,7 +2,7 @@ dev:
     pnpm run start
 
 process-images:
-    scala scripts/ProcessImages.sc
+    ./mill scripts.runMain images.main
 
 clean-scala-build:
     rm -rf scripts/.scala-build/

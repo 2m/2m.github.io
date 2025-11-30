@@ -86,7 +86,25 @@ const config: Config = {
           ],
         };
       },
-    })
+    }),
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'episodes',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'episodes',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './episodes',
+      },
+    ],
   ],
 
   themes: [
@@ -99,6 +117,7 @@ const config: Config = {
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/feeds', label: 'Feeds', position: 'left' },
+        { to: '/episodes', label: 'Episodes', position: 'left' },
         {
           href: 'https://github.com/2m/2m.github.io',
           label: 'GitHub',

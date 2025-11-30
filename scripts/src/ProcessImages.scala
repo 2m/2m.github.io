@@ -11,12 +11,10 @@ package images
     )
   println(s"Found [${files.size}] files")
 
-  val images =
-    files.filter(p => imageExts.contains(p.ext))
+  val images = files.filter(p => imageExts.contains(p.ext))
   println(s"Found [${images.size}] images")
 
-  val largeImages =
-    images.filterNot(p => p.toString.contains(".small."))
+  val largeImages = images.filterNot(p => p.toString.contains(".small."))
   println(s"Found [${largeImages.size}] large images")
 
   println("Processing...")
