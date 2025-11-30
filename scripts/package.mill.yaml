@@ -1,0 +1,4 @@
+extends: [mill.scalalib.ScalaModule]
+scalaVersion: 3.7.4
+mvnDeps:
+- "com.lihaoyi::os-lib:0.11.3"

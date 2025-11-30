@@ -1,11 +1,11 @@
 dev:
     pnpm run start
 
-process:
-    scala ProcessImages.scala
+process-images:
+    scala scripts/ProcessImages.sc
 
 clean-scala-build:
-    rm -rf .scala-build/
+    rm -rf scripts/.scala-build/
 
 install:
     pnpm install
