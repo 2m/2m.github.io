@@ -86,7 +86,28 @@ const config: Config = {
           ],
         };
       },
-    })
+    }),
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'episodes',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'episodes',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './episodes',
+        blogSidebarTitle: 'All liked episodes',
+        blogSidebarCount: 'ALL',
+        showReadingTime: false,
+      },
+    ],
   ],
 
   themes: [
@@ -98,7 +119,8 @@ const config: Config = {
       title: '2m',
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/feeds', label: 'Feeds', position: 'left' },
+        { to: '/feeds', label: 'Followed Feeds', position: 'left' },
+        { to: '/episodes', label: 'Liked Episodes', position: 'left' },
         {
           href: 'https://github.com/2m/2m.github.io',
           label: 'GitHub',
