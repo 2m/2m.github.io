@@ -16,26 +16,25 @@ case class Episode(
 ) derives upickle.ReadWriter
 case class StarredResponse(total: Int, episodes: Seq[Episode]) derives upickle.ReadWriter
 
-def episodeTemplate(e: Episode) = s"""
----
-title: ${e.title}
-date: ${e.published}
----
-
-<div style={{ display: 'grid', gridTemplateColumns: '12ch auto', gridColumnGap: '0.5rem' }}>
-
-![image](https://static.pocketcasts.com/discover/images/webp/200/${e.podcastUuid}.webp)
-
-<div>
-    <p>
-        [${e.title}](https://pocketcasts.com/podcast/${e.podcastSlug}/${e.podcastUuid}/${e.slug}/${e.uuid})
-    </p>
-    <p>${e.podcastTitle} @ ${e.author}</p>
-</div>
-
-</div>
-
-"""
+def episodeTemplate(e: Episode) =
+  s"""|---
+      |title: "${e.title}"
+      |date: ${e.published}
+      |---
+      |
+      |<div style={{ display: 'grid', gridTemplateColumns: '12ch auto', gridColumnGap: '0.5rem' }}>
+      |
+      |![image](https://static.pocketcasts.com/discover/images/webp/200/${e.podcastUuid}.webp)
+      |
+      |<div>
+      |    <p>
+      |        [${e.title}](https://pocketcasts.com/podcast/${e.podcastSlug}/${e.podcastUuid}/${e.slug}/${e.uuid})
+      |    </p>
+      |    <p>${e.podcastTitle} @ ${e.author}</p>
+      |</div>
+      |
+      |</div>
+      |""".stripMargin
 
 @main def main(email: String, password: String) =
   val loginResponse = requests.post(
@@ -49,4 +48,4 @@ date: ${e.published}
   val starred = upickle.read[StarredResponse](starredResponse.text())
 
   starred.episodes.foreach: episode =>
-    os.write(os.pwd/"episodes"/episode.slug, episodeTemplate(episode))
+    os.write.over(os.pwd / "episodes" / s"${episode.slug}.md", episodeTemplate(episode))

@@ -103,6 +103,9 @@ const config: Config = {
          * Path to data on filesystem relative to site dir.
          */
         path: './episodes',
+        blogSidebarTitle: 'All liked episodes',
+        blogSidebarCount: 'ALL',
+        showReadingTime: false,
       },
     ],
   ],
@@ -116,8 +119,8 @@ const config: Config = {
       title: '2m',
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/feeds', label: 'Feeds', position: 'left' },
-        { to: '/episodes', label: 'Episodes', position: 'left' },
+        { to: '/feeds', label: 'Followed Feeds', position: 'left' },
+        { to: '/episodes', label: 'Liked Episodes', position: 'left' },
         {
           href: 'https://github.com/2m/2m.github.io',
           label: 'GitHub',
