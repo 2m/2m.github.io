@@ -25,7 +25,7 @@
     "axios": "^1.13.2",
     "clsx": "^2.0.0",
     "lucide-react": "^0.561.0",
-    "plotly.js": "^3.3.0",
+    "plotly.js": "^3.3.1",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.2.3",
     "react-compare-slider": "^3.1.0",
