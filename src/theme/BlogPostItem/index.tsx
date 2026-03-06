@@ -4,6 +4,7 @@ import type BlogPostItemType from '@theme/BlogPostItem';
 import type { WrapperProps } from '@docusaurus/types';
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
 import Comments from "@site/src/components/Comments";
+import ShareToMastodon from '@site/src/components/ShareToMastodon';
 
 type Props = WrapperProps<typeof BlogPostItemType>;
 
@@ -14,6 +15,7 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
   return (
     <>
       <BlogPostItem {...props} />
+      {isBlogPostPage && <ShareToMastodon metadata={metadata} />}
       {comments && isBlogPostPage && <Comments />}
     </>
   );

@@ -1,0 +1,10 @@
+.mastodonButtonContainer {
+    padding: 20px;
+    text-align: center;
+}
+
+.mastodonLogo {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
