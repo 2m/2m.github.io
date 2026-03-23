@@ -28,7 +28,7 @@
     "plotly.js": "^3.4.0",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.2.4",
-    "react-compare-slider": "^3.1.0",
+    "react-compare-slider": "^4.0.0",
     "react-dom": "^19.2.4",
     "react-medium-image-zoom": "^5.4.1",
     "react-plotly.js": "^2.6.0"
