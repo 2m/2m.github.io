@@ -39,8 +39,8 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0(react@19.2.4)
       plotly.js:
-        specifier: ^3.4.0
-        version: 3.4.0(mapbox-gl@1.13.3)
+        specifier: ^3.5.0
+        version: 3.5.0(mapbox-gl@1.13.3)
       prism-react-renderer:
         specifier: ^2.4.1
         version: 2.4.1(react@19.2.4)
@@ -58,7 +58,7 @@ importers:
         version: 5.4.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react-plotly.js:
         specifier: ^2.6.0
-        version: 2.6.0(plotly.js@3.4.0(mapbox-gl@1.13.3))(react@19.2.4)
+        version: 2.6.0(plotly.js@3.5.0(mapbox-gl@1.13.3))(react@19.2.4)
     devDependencies:
       '@docusaurus/module-type-aliases':
         specifier: 3.9.2
@@ -4646,8 +4646,8 @@ packages:
     resolution: {integrity: sha512-Ie9z/WINcxxLp27BKOCHGde4ITq9UklYKDzVo1nhk5sqGEXU3FpkwP5GM2voTGJkGd9B3Otl+Q4uwSOeSUtOBA==}
     engines: {node: '>=14.16'}
 
-  plotly.js@3.4.0:
-    resolution: {integrity: sha512-jdWfHLB8AxlGUmVhqJTGEKdwjCKGn9Yi8yg16067/JyqseuSado7F6IOM1XPZspdZyO/cf8IPuy7ROlVhqZZNw==}
+  plotly.js@3.5.0:
+    resolution: {integrity: sha512-a3AYQIMG7OdZmrJ/fJ65HSt3g1l5qDeludKqjjafU1dh5E+fwqDhsEBndW7VCYwjlducCfN6KtPdWdiWFcoBWw==}
     engines: {node: '>=18.0.0'}
 
   point-in-polygon@1.1.0:
@@ -5396,8 +5396,8 @@ packages:
   sax@1.4.3:
     resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==}
 
-  sax@1.4.4:
-    resolution: {integrity: sha512-1n3r/tGXO6b6VXMdFT54SHzT9ytu9yr7TaELowdYpMqY/Ao7EnlQGmAQ1+RatX7Tkkdm6hONI2owqNx2aZj5Sw==}
+  sax@1.6.0:
+    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
     engines: {node: '>=11.0.0'}
 
   scheduler@0.27.0:
@@ -11879,7 +11879,7 @@ snapshots:
     dependencies:
       debug: 3.2.7
       iconv-lite: 0.4.24
-      sax: 1.4.4
+      sax: 1.6.0
     transitivePeerDependencies:
       - supports-color
 
@@ -12116,7 +12116,7 @@ snapshots:
     dependencies:
       find-up: 6.3.0
 
-  plotly.js@3.4.0(mapbox-gl@1.13.3):
+  plotly.js@3.5.0(mapbox-gl@1.13.3):
     dependencies:
       '@plotly/d3': 3.8.2
       '@plotly/d3-sankey': 0.7.2
@@ -12741,9 +12741,9 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  react-plotly.js@2.6.0(plotly.js@3.4.0(mapbox-gl@1.13.3))(react@19.2.4):
+  react-plotly.js@2.6.0(plotly.js@3.5.0(mapbox-gl@1.13.3))(react@19.2.4):
     dependencies:
-      plotly.js: 3.4.0(mapbox-gl@1.13.3)
+      plotly.js: 3.5.0(mapbox-gl@1.13.3)
       prop-types: 15.8.1
       react: 19.2.4
 
@@ -13069,7 +13069,7 @@ snapshots:
 
   sax@1.4.3: {}
 
-  sax@1.4.4: {}
+  sax@1.6.0: {}
 
   scheduler@0.27.0: {}
 
@@ -13892,7 +13892,7 @@ snapshots:
 
   xml-js@1.6.11:
     dependencies:
-      sax: 1.4.4
+      sax: 1.6.0
 
   xtend@2.2.0: {}
 
