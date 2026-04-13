@@ -30,7 +30,7 @@
     "react": "^19.2.5",
     "react-compare-slider": "^4.0.0",
     "react-dom": "^19.2.5",
-    "react-medium-image-zoom": "^5.4.1",
+    "react-medium-image-zoom": "^5.4.3",
     "react-plotly.js": "^2.6.0"
   },
   "devDependencies": {
