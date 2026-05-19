@@ -16,7 +16,7 @@ Back to four months ago when it was white and cold in Lithuania.
 
 I was preparing for a road-trip to Sweden and wanted to test out the car with the "big spike" tires. We are really fortunate to have [@petrassiauciunas](https://www.instagram.com/petrassiauciunas/) who, if weather permits, does his magic by pouring water on the buckwheat farmland for a couple of nights and creates an ice track for everyone to enjoy. What is more, the track is on quite a hilly terrain. You can feel the weight of the car moving around when you go through the crests. Proper rally experience!
 
-<!--truncate-->
+{/* truncate */}
 
 Back to the car setup. GR Yaris likes snow. But to drive on ice fast, one needs to find more grip. Grip on ice comes from the little metal thingies sticking out from the tire - studs.
 

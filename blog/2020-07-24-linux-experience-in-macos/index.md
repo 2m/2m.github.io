@@ -10,7 +10,7 @@ I am often switching between a MacBook and a Linux desktop. From time to time I 
 
 This article will overview various tools that I have found useful for this task.
 
-<!--truncate-->
+{/* truncate */}
 
 ### Initial keyboard remap
 

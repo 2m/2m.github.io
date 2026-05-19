@@ -14,7 +14,7 @@ This was originally posted on 2022-12-08 on [Instagram](https://www.instagram.co
 
 Two weeks later after the first round of Lithuanian Slalom Championship we go to Lithuanian Street Race Championship. These series feature faster tracks. So less handbrake, and more gears.
 
-<!--truncate-->
+{/* truncate */}
 
 The first round was outside of Varėna town. The track was organized on closed off roads. Lots of chicanes to not get too fast in the straights.
 

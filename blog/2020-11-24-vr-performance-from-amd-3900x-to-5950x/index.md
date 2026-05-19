@@ -21,7 +21,7 @@ This was originally posted on 2020-11-24 on [iRacing subreddit][reddit-post]
 
 I was fortunate enough to upgrade my CPU to AMD Ryzen 9 5950x, and I figured to do a frametime and utilization comparison in iRacing using fpsVR.
 
-<!--truncate-->
+{/* truncate */}
 
 The test was one lap in Barcelona circuit behind 10 AI cars all driving Audi RS3 LMS.
 

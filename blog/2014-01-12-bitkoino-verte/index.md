@@ -8,7 +8,7 @@ tags: [crypto]
 
 Užmačiau keletą žmonių sakančių, kad bitkonai neturi vertės, niekas jų vertės nekontroliuoja ar panašiai. Manau tokie argumentai kyla dėl informacijos stygiaus. Šiek tiek paskaičiau ir sudėliojau keletą argumentų, kodėl bitkoinai turi vertę.
 
-<!--truncate-->
+{/* truncate */}
 
 Bitkoinais yra vadinami bent du skirtingi dalykai. Pirma, tai yra tai apie ką daugelis kalba - priemonė mainams arba valiuta.
 

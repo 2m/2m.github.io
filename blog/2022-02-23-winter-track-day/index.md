@@ -14,7 +14,7 @@ This was originally posted on 2022-02-23 on [Instagram](https://www.instagram.co
 
 Throwback to a month ago where [@slalomoakademija](https://www.instagram.com/slalomoakademija/) organized Nemunas Ring winter track day.
 
-<!--truncate-->
+{/* truncate */}
 
 <Img large={require('./ready.jpg').default} small={require('./ready.small.jpg').default} />
 <Img large={require('./before_chicane.jpg').default} small={require('./before_chicane.small.jpg').default} />

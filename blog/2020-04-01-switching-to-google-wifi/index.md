@@ -8,7 +8,7 @@ tags: [hw]
 
 I had recently acquired three Google WiFi pucks to upgrade the networking setup in my current apartment. I have had a [pretty good experience](https://www.facebook.com/photo.php?fbid=10157196029529451&set=a.10152218429019451&type=3&theater) with Google WiFi when I set it up at my parents home almost a year ago.
 
-<!--truncate-->
+{/* truncate */}
 
 However this time I wanted to measure the network bandwidth before and after the upgrade.
 

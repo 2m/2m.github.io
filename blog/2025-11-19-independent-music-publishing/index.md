@@ -8,7 +8,7 @@ tags: [music, publishing]
 
 In recent years, the landscape of music publishing has undergone significant changes. Independent artists can take control of their work and reach audiences directly. However navigating the world of music publishing can be complex. This is an attempt to shed some light on emerging trends and platforms.
 
-<!--truncate-->
+{/* truncate */}
 
 This blog post has been inspired by a recent [Ne Vienas][] (in Lithuanian) podcast episode where two artists, [Domantas Starkauskas][] and [Tomas Narkevičius - Free Finga][] were discussing unfair monetization policies of largest music publishing platforms.
 

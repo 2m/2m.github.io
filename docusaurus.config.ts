@@ -30,10 +30,8 @@ const config: Config = {
   },
 
   future: {
-    v4: {
-      removeLegacyPostBuildHeadAttribute: true, // required
-    },
-    experimental_faster: true,
+    faster: true,
+    v4: true,
   },
 
   presets: [
