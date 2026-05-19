@@ -8,7 +8,7 @@ tags: [gsoc]
 
 Hey, today is the day when students all around the world start to officially write code and blogs for Google Summer of Code project. This also has to include me.
 
-<!--truncate-->
+{/* truncate */}
 
 I am a little bit sad to say this, but my RPMs will not be rocketing to the skies for now. I have two (yes two) exams on Friday. For now all my thoughts are with these two, and with another project work that I am doing with my course mate.
 

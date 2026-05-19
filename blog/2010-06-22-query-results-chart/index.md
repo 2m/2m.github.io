@@ -10,7 +10,7 @@ Hello,
 
 while the code for generating charts for the status page and the profiling page was more or less trivial, code for the query results will be more complicated. This is because of the dynamic data structure that query results can have. You can get any number of rows and columns as a result. Also the data in the result is composite - there are strings, numbers, dates, etc.. Not everything is suitable for one chart or another.
 
-<!--truncate-->
+{/* truncate */}
 
 I decided to introduce two (for now) query result formats that must be followed when you want to put your data to the charts. If this format is followed code will recognize that and will render a chart which suits best.
 

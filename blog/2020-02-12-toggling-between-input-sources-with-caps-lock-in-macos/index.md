@@ -8,7 +8,7 @@ tags: [macos]
 
 I have recently started switching between my Arch Linux PC and MacBook for daily development. I am striving to have as similar user experience between the two machines as possible.
 
-<!--truncate-->
+{/* truncate */}
 
 One of the differences that was nagging me for a while was switching between the keyboard input sources. On Arch, [I have it mapped to the <kbd>Caps&nbsp;Lock</kbd>](https://github.com/2m/dotfiles/blob/bb877efa3f4e2799f7bf338044b2b8ddd4500b33/home/dot_xprofile.tmpl#L14).
 

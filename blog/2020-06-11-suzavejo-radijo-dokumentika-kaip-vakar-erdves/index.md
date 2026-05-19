@@ -8,7 +8,7 @@ tags: [podcast]
 
 Kai klausant kokios radijo laidos pasigirsta mintis kuri sužavi, pridedu tą laidą į mėgstamų laidų sąrašą. Tas sąrašas po truputį pildosi, bet taip ir lieka tik man matomas.
 
-<!--truncate-->
+{/* truncate */}
 
 Čia noriu pasidalinti laidomis, kurios sužavėjo. Štai keletas iškarpų, kurios privertė šypsotis iki ausų.
 

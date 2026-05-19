@@ -10,7 +10,7 @@ Hey,
 
 I have thought for some time that it would be quite cool to have the internet anywhere you go using the GPRS network. All of us carry some mobile phone device. Not all of us know that almost every mobile phone can be connected to the PC and be used as a modem for GSM or even GPRS data transfer. Even better, mobile phone can be connected to the PC using Bluetooth - no unnecessary cables! When I saw that my carrier (Tele2) allows me to use 1 GB for 1 LT (~0.3 EUR) every month I decided to figure out how to put everything together.
 
-<!--truncate-->
+{/* truncate */}
 
 The first thing I did was download mobile internet settings from my carriers web page and set the new connection as a default one in my mobile phone. Then I have found quite a good tutorial in the carriers home page. It basically deals with how to set up the dial-up connection on Windows XP using GPRS through a mobile phone. This is in Lithuanian but has many pictures so it is quite easy to understand the general idea.
 

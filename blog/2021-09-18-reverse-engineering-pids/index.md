@@ -16,7 +16,7 @@ This was originally posted on 2021-09-18 on [gr-yaris.co.uk] forum thread.
 
 Car telemetry is a bit of a black magic. New cars are full of sensors that report readings on internal CAN buses. This data is accessible via a basic OBD adapter. However one needs to know the exact sensor PID value to query the sensor. The received data is usually in a raw form and needs to be converted to something usable by applying a specific formula. PID values and formulas are not shared by car manufacturers. Here is my attempt to make some sence of the GR Yaris OBD data.
 
-<!--truncate-->
+{/* truncate */}
 
 Thanks to [this thread] we now know that selecting Toyota Camry 2020 in [OBDLink] Android app gives access to GR Yaris additional sensors.
 

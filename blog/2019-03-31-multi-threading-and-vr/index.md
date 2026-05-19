@@ -20,7 +20,7 @@ TLDR: turning off HyperThreading in BIOS bumped up FPS in VR from ~60 during sta
 
 I have just recently started iRacing and this week I was racing quite a bit in the Lime Rock Park with MX-5. Unfortunately I used to get around 60 FPS during starts and that is a very tense part of the race. Every frame counts during those moments. Since I have a pretty decent system, I though I should be able to get more FPS in VR.
 
-<!-- truncate -->
+{/* truncate */}
 
 My relevant PC specs are: `Intel i7-4790K, 32GB Ram, Radeon VII and Samsung Odyssey+`.
 

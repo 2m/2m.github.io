@@ -12,7 +12,7 @@ Tačiau Lietuvos gamta, esanti taip šalia, gali pavirsti pažintiniu taku ir be
 
 Šiuo noriu pasidalinti, kaip pasileisti į nuotykį savo apylinkėse su žemėlapiu rankoje.
 
-<!--truncate-->
+{/* truncate */}
 
 Mums reiks apylinkės, kurią norime tyrinėti, sportinio žemėlapio. Orientavimosi sportas Lietuvoje turi gilias tradicijas. Dėka šios bendruomenės, turime internetinį puslapį, kuriame galime rasti daugybę smulkių žemėlapių iš įvairių Lietuvos vietų.
 

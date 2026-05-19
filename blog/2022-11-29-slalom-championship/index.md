@@ -14,7 +14,7 @@ This was originally posted on 2022-11-29 on [Instagram](https://www.instagram.co
 
 First round of Lithuanian Slalom Championship. Early May. Still cold and wet. It is raining since the last day. Lower grip is plenty here.
 
-<!--truncate-->
+{/* truncate */}
 
 <div style={{ display: 'grid', gridTemplateColumns: '0.865fr 1fr', gridColumnGap: '0.5rem' }}>
     <Img style={{gridRow: "1 / 3"}} large={require('./front.jpg').default} small={require('./front.small.jpg').default} />

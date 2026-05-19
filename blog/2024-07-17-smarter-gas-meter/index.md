@@ -8,7 +8,7 @@ tags: [home-automation]
 
 Home Assistant has great [energy management](https://www.home-assistant.io/docs/energy/) features. [ESPHome](https://esphome.io/) provides easy and cheap way to get various measurements into Home Assistant. Combine the two and you can start tracking gas usage at homes that have old style gas meters.
 
-<!--truncate-->
+{/* truncate */}
 
 There are a couple of already documented ways to get gas meter readings into Home Assistant. At first I tried using a [window sensor][reed] to track whenever the gas meter wheel makes a full rotation. But I was never able to position the reed sensor in a way that it would reliably detect the full wheel rotation.
 

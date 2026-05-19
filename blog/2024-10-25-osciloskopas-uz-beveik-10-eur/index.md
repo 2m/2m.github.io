@@ -12,7 +12,7 @@ Iki galo suprasti kas vyksta padėjo osciloskopas veikiantis ant [8.5EUR RPi Pic
 [esphome]: https://esphome.io/
 [8.5EUR RPi Pico]: https://www.lemona.lt/en/microcontroller-raspberry-pi-pico-rp2040-arm-cortex-m0.html
 
-<!--truncate-->
+{/* truncate */}
 
 Tokio osciloskopo paleidimas yra labai paprastas:
 

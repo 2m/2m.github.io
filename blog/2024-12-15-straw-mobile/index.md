@@ -10,7 +10,7 @@ For this holiday season my friend had an idea to make a traditional Lithuanian [
 
 [straw mobile]: https://en.wikipedia.org/wiki/Straw_mobile
 
-<!--truncate-->
+{/* truncate */}
 
 Usually straw mobiles consist of octahedrons and are fractal in nature - smaller octahedrons are joined together to make larger ones. Six smaller ones when joined together make a larger one. For this project we decided to have five - one in the middle and four around it.
 

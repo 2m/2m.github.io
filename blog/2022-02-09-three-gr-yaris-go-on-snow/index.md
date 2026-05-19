@@ -14,7 +14,7 @@ This was originally posted on 2022-02-09 on [Instagram](https://www.instagram.co
 
 Three GR Yaris come to a snowy track. Slides and drifts commence!
 
-<!--truncate-->
+{/* truncate */}
 
 The night before this had plenty of fresh snowfall. The local test track did not have any events booked that day and were happy to welcome three GR Yaris to clear the snow for them.
 
