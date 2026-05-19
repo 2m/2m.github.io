@@ -27,10 +27,9 @@ def episodeTemplate(e: Episode) =
       |![image](https://static.pocketcasts.com/discover/images/webp/200/${e.podcastUuid}.webp)
       |
       |<div>
-      |    <p>
-      |        [${e.title}](https://pocketcasts.com/podcast/${e.podcastSlug}/${e.podcastUuid}/${e.slug}/${e.uuid})
-      |    </p>
-      |    <p>${e.podcastTitle} @ ${e.author}</p>
+      |[${e.title}](https://pocketcasts.com/podcast/${e.podcastSlug}/${e.podcastUuid}/${e.slug}/${e.uuid})
+      |
+      |${e.podcastTitle} @ ${e.author}
       |</div>
       |
       |</div>

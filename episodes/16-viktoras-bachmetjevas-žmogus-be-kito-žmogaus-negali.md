@@ -8,10 +8,9 @@ date: 2019-05-29T02:50:00Z
 ![image](https://static.pocketcasts.com/discover/images/webp/200/b19aa8f0-0fa9-0137-f265-1d245fc5f9cf.webp)
 
 <div>
-    <p>
-        [16 Viktoras Bachmetjevas: žmogus be kito žmogaus negali](https://pocketcasts.com/podcast/greito-gyvenimo-lėti-pokalbiai/b19aa8f0-0fa9-0137-f265-1d245fc5f9cf/16-viktoras-bachmetjevas-žmogus-be-kito-žmogaus-negali/686f32a0-d51e-43d1-b0b3-55f29a9ae241)
-    </p>
-    <p>Greito gyvenimo lėti pokalbiai @ Urtė Karalaitė</p>
+[16 Viktoras Bachmetjevas: žmogus be kito žmogaus negali](https://pocketcasts.com/podcast/greito-gyvenimo-lėti-pokalbiai/b19aa8f0-0fa9-0137-f265-1d245fc5f9cf/16-viktoras-bachmetjevas-žmogus-be-kito-žmogaus-negali/686f32a0-d51e-43d1-b0b3-55f29a9ae241)
+
+Greito gyvenimo lėti pokalbiai @ Urtė Karalaitė
 </div>
 
 </div>

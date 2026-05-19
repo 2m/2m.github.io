@@ -8,10 +8,9 @@ date: 2019-12-10T09:00:00Z
 ![image](https://static.pocketcasts.com/discover/images/webp/200/693ab9f0-d0f0-0132-0356-059c869cc4eb.webp)
 
 <div>
-    <p>
-        [#71 Esther Perel: Cultivating Desire](https://pocketcasts.com/podcast/the-knowledge-project/693ab9f0-d0f0-0132-0356-059c869cc4eb/71-esther-perel-cultivating-desire/c17d3035-44f8-4043-a404-07caccd04621)
-    </p>
-    <p>The Knowledge Project @ Shane Parrish</p>
+[#71 Esther Perel: Cultivating Desire](https://pocketcasts.com/podcast/the-knowledge-project/693ab9f0-d0f0-0132-0356-059c869cc4eb/71-esther-perel-cultivating-desire/c17d3035-44f8-4043-a404-07caccd04621)
+
+The Knowledge Project @ Shane Parrish
 </div>
 
 </div>

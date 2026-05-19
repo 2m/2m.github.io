@@ -4,6 +4,9 @@ dev:
 process-images:
     ./mill scripts.runMain images.main
 
+update-episodes:
+    ./mill scripts.runMain episodes.main $(op read op://Private/pocketcasts.com/username) $(op read op://Private/pocketcasts.com/password)
+
 clean-scala-build:
     rm -rf scripts/.scala-build/
 

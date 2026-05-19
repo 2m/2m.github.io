@@ -8,10 +8,9 @@ date: 2020-09-01T11:00:00Z
 ![image](https://static.pocketcasts.com/discover/images/webp/200/693ab9f0-d0f0-0132-0356-059c869cc4eb.webp)
 
 <div>
-    <p>
-        [#91 Russ Hudson: The Pursuit of Presence](https://pocketcasts.com/podcast/the-knowledge-project/693ab9f0-d0f0-0132-0356-059c869cc4eb/91-russ-hudson-the-pursuit-of-presence/48fa8c78-5b76-49cb-8cd0-da6c56d65fe3)
-    </p>
-    <p>The Knowledge Project @ Shane Parrish</p>
+[#91 Russ Hudson: The Pursuit of Presence](https://pocketcasts.com/podcast/the-knowledge-project/693ab9f0-d0f0-0132-0356-059c869cc4eb/91-russ-hudson-the-pursuit-of-presence/48fa8c78-5b76-49cb-8cd0-da6c56d65fe3)
+
+The Knowledge Project @ Shane Parrish
 </div>
 
 </div>

@@ -19,3 +19,6 @@ npm-debug.log*
 
 .scala-build
 out
+.bsp
+.metals
+.vscode

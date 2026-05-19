@@ -91,7 +91,7 @@ function Feature({ title, page, Svg, Img, description }: FeatureItem) {
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3"><a href={page}>{title}</a></Heading>
-        <p>{description}</p>
+        <div>{description}</div>
       </div>
     </div>
   );
