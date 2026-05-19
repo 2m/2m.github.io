@@ -24,7 +24,7 @@
     "@saucelabs/theme-github-codeblock": "^0.3.0",
     "axios": "^1.16.1",
     "clsx": "^2.0.0",
-    "lucide-react": "^1.14.0",
+    "lucide-react": "^1.16.0",
     "plotly.js": "^3.5.1",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.2.6",
