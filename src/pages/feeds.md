@@ -1,7 +1,7 @@
-The following is a list of RSS feeds that I follow using the [Readwise Reader app][readwise].
-This page renders [exported OPML](/feeds.opml) file that I update from time to time.
+The following is a list of RSS feeds that I follow using the [miniflux][] self-hosted app.
+This page renders the [exported OPML](/feeds.opml) file that I update from time to time.
 
-[readwise]: https://readwise.io/read
+[miniflux]: https://miniflux.app/
 
 import OPMLViewer from '@site/src/components/OPMLViewer';
 

@@ -1,9 +1,39 @@
 import React, { useState, useEffect } from 'react';
 import { Loader } from 'lucide-react';
 
-const OPMLViewer = ({ url }) => {
-  const [opmlData, setOpmlData] = useState(null);
-  const [error, setError] = useState(null);
+type OutlineNode = {
+  text: string;
+  type: string | null;
+  xmlUrl: string | null;
+  category: string | null;
+  children: OutlineNode[];
+};
+
+type Feed = {
+  text: string;
+  type: string | null;
+  xmlUrl: string;
+  category: string;
+};
+
+type Category = {
+  name: string;
+  feeds: Feed[];
+};
+
+type OPMLData = {
+  title: string;
+  dateCreated?: string;
+  categories: Category[];
+};
+
+type OPMLViewerProps = {
+  url?: string;
+};
+
+const OPMLViewer = ({ url }: OPMLViewerProps) => {
+  const [opmlData, setOpmlData] = useState<OPMLData | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -27,7 +57,7 @@ const OPMLViewer = ({ url }) => {
         setOpmlData(parsed);
         setError(null);
       } catch (err) {
-        setError(err.message);
+        setError(err instanceof Error ? err.message : String(err));
         setOpmlData(null);
       } finally {
         setLoading(false);
@@ -37,7 +67,7 @@ const OPMLViewer = ({ url }) => {
     fetchAndParseOPML();
   }, [url]);
 
-  const parseOPML = (xmlString) => {
+  const parseOPML = (xmlString: string): OPMLData => {
     try {
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
@@ -52,9 +82,10 @@ const OPMLViewer = ({ url }) => {
 
       const title = head?.querySelector('title')?.textContent || 'Untitled OPML';
       const dateCreated = head?.querySelector('dateCreated')?.textContent;
+      const ignoredContainerNames = new Set(['feeds', 'subscriptions']);
 
-      const parseOutline = (outline) => {
-        const node = {
+      const parseOutline = (outline: Element): OutlineNode => {
+        const node: OutlineNode = {
           text: outline.getAttribute('text') || outline.getAttribute('title') || 'Untitled',
           type: outline.getAttribute('type'),
           xmlUrl: outline.getAttribute('xmlUrl'),
@@ -74,21 +105,34 @@ const OPMLViewer = ({ url }) => {
       const allNodes = Array.from(outlines).map(parseOutline);
 
       // Flatten all feeds
-      const feeds = [];
-      const collectFeeds = (nodes) => {
+      const feeds: Feed[] = [];
+      const collectFeeds = (nodes: OutlineNode[], inheritedCategory: string | null = null) => {
         for (const node of nodes) {
+          const normalizedText = (node.text || '').trim().toLowerCase();
+          const inferredContainerCategory =
+            node.children.length > 0 && !ignoredContainerNames.has(normalizedText)
+              ? node.text
+              : null;
+          const nextInheritedCategory = node.category || inferredContainerCategory || inheritedCategory;
+
           if (node.xmlUrl) {
-            feeds.push(node);
+            feeds.push({
+              text: node.text,
+              type: node.type,
+              xmlUrl: node.xmlUrl,
+              category: node.category || inheritedCategory || 'Uncategorized'
+            });
           }
+
           if (node.children.length > 0) {
-            collectFeeds(node.children);
+            collectFeeds(node.children, nextInheritedCategory);
           }
         }
       };
       collectFeeds(allNodes);
 
       // Group feeds by category
-      const groupedByCategory = {};
+      const groupedByCategory: Record<string, Feed[]> = {};
       for (const feed of feeds) {
         const category = feed.category || 'Uncategorized';
         if (!groupedByCategory[category]) {
@@ -105,17 +149,17 @@ const OPMLViewer = ({ url }) => {
       return {
         title,
         dateCreated,
-        categories: categories.map(cat => ({
+        categories: categories.map((cat) => ({
           name: cat,
           feeds: groupedByCategory[cat]
         }))
       };
     } catch (err) {
-      throw new Error(`Failed to parse OPML: ${err.message}`);
+      throw new Error(`Failed to parse OPML: ${err instanceof Error ? err.message : String(err)}`);
     }
   };
 
-  const FeedItem = ({ feed }) => {
+  const FeedItem = ({ feed }: { feed: Feed }) => {
     return (
       <div>
         <a href={feed.xmlUrl} target="_blank" rel="noopener noreferrer">
@@ -125,7 +169,7 @@ const OPMLViewer = ({ url }) => {
     );
   };
 
-  const CategorySection = ({ category }) => {
+  const CategorySection = ({ category }: { category: Category }) => {
     return (
       <div style={{ marginBottom: '1em'}}>
         <h3>
@@ -133,7 +177,7 @@ const OPMLViewer = ({ url }) => {
         </h3>
 
         <div>
-          {category.feeds.map((feed) => (
+          {category.feeds.map((feed: Feed) => (
             <FeedItem key={feed.xmlUrl} feed={feed} />
           ))}
         </div>
@@ -164,7 +208,7 @@ const OPMLViewer = ({ url }) => {
 
   return (
     <div>
-      {opmlData.categories.map((category) => (
+      {opmlData.categories.map((category: Category) => (
         <CategorySection key={category.name} category={category} />
       ))}
     </div>
