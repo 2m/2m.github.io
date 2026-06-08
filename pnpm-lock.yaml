@@ -54,8 +54,8 @@ importers:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
       react-medium-image-zoom:
-        specifier: ^5.4.5
-        version: 5.4.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^5.4.6
+        version: 5.4.6(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react-plotly.js:
         specifier: ^2.6.0
         version: 2.6.0(plotly.js@3.6.0(mapbox-gl@1.13.3))(react@19.2.7)
@@ -5304,8 +5304,8 @@ packages:
       react-loadable: '*'
       webpack: '>=4.41.1 || 5.x'
 
-  react-medium-image-zoom@5.4.5:
-    resolution: {integrity: sha512-58QSIRK6X3uw2fSTejJRnH0JuKTZl7ZJYX+sAMaYx4YTEm33gsNdnP5RuQSCnBiAvisQeErqZWAT31bR89WB6g==}
+  react-medium-image-zoom@5.4.6:
+    resolution: {integrity: sha512-5lHF6zNS5cTgSCLpPmeHH+lm+yPtLpS16gi4yhyQ9Rqa+xk0X2QPLHqv89zP+OsLUr9ijEALlz/8u/9C7iGVmQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -13361,7 +13361,7 @@ snapshots:
       react-loadable: '@docusaurus/react-loadable@6.0.0(react@19.2.7)'
       webpack: 5.106.2(@swc/core@1.15.33)(postcss@8.5.14)
 
-  react-medium-image-zoom@5.4.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  react-medium-image-zoom@5.4.6(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
     dependencies:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
