@@ -7,6 +7,9 @@ process-images:
 update-episodes:
     ./mill scripts.runMain episodes.main $(op read op://Private/pocketcasts.com/username) $(op read op://Private/pocketcasts.com/password)
 
+update-feeds:
+    xh -a admin:$(op read op://Private/miniflux/password) 'https://rss.lab.2m.lt/v1/export' > static/feeds.opml
+
 clean-scala-build:
     rm -rf scripts/.scala-build/
 
