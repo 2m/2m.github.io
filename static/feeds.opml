@@ -2,7 +2,7 @@
 <opml version="2.0" xmlns:miniflux="https://miniflux.app/opml">
     <head>
         <title>Miniflux</title>
-        <dateCreated>Wed, 10 Jun 2026 19:07:10 EEST</dateCreated>
+        <dateCreated>Sun, 14 Jun 2026 20:02:05 EEST</dateCreated>
     </head>
     <body>
         <outline text="ai">
@@ -27,7 +27,7 @@
             <outline title="Farnam Street" text="Farnam Street" xmlUrl="http://feeds.feedburner.com/68131" htmlUrl="http://feeds.feedburner.com/68131" type="rss"></outline>
         </outline>
         <outline text="computer-science">
-            <outline title="Ashton Wiersdorf on Lambda Land" text="Ashton Wiersdorf on Lambda Land" xmlUrl="https://lambdaland.org/index.xml" htmlUrl="https://lambdaland.org/index.xml" type="rss"></outline>
+            <outline title="Ashton Wiersdorf on Lambda Land" text="Ashton Wiersdorf on Lambda Land" xmlUrl="https://lambdaland.org/rss.xml" htmlUrl="https://lambdaland.org/" type="rss"></outline>
             <outline title="DDI" text="DDI" xmlUrl="https://michaelnielsen.org/ddi/feed/" htmlUrl="https://michaelnielsen.org/ddi/feed/" type="rss"></outline>
             <outline title="https://samwho.dev/rss.xml" text="https://samwho.dev/rss.xml" xmlUrl="https://samwho.dev/rss.xml" htmlUrl="https://samwho.dev/rss.xml" type="rss"></outline>
             <outline title="maltanar&#39;s scribbles" text="maltanar&#39;s scribbles" xmlUrl="http://maltanar.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://maltanar.blogspot.com/feeds/posts/default?alt=rss" type="rss"></outline>
@@ -104,8 +104,8 @@
             <outline title="Matt Might&#39;s blog" text="Matt Might&#39;s blog" xmlUrl="http://matt.might.net/articles/feed.rss" htmlUrl="http://matt.might.net/articles/feed.rss" type="rss"></outline>
             <outline title="Minčių pūga" text="Minčių pūga" xmlUrl="https://minciu.puga.lt/feed/" htmlUrl="https://minciu.puga.lt" description="Apie viską ir apie nieką" type="rss"></outline>
             <outline title="n-gate.com." text="n-gate.com." xmlUrl="http://n-gate.com/index.rss" htmlUrl="http://n-gate.com/index.rss" type="rss"></outline>
-            <outline title="opit" text="opit" xmlUrl="https://opit.tumblr.com/rss" htmlUrl="https://opit.tumblr.com/rss" type="rss"></outline>
             <outline title="opit" text="opit" xmlUrl="http://blog.hardcore.lt/opit/index.rdf" htmlUrl="http://blog.hardcore.lt/opit/index.rdf" type="rss"></outline>
+            <outline title="opit" text="opit" xmlUrl="https://opit.tumblr.com/rss" htmlUrl="https://opit.tumblr.com/rss" type="rss"></outline>
             <outline title="Remains of the Day" text="Remains of the Day" xmlUrl="https://www.eugenewei.com/blog?format=rss" htmlUrl="https://www.eugenewei.com/blog?format=rss" type="rss"></outline>
             <outline title="Santara-Šviesa" text="Santara-Šviesa" xmlUrl="https://www.santarasviesa.lt/feed/" htmlUrl="https://www.santarasviesa.lt" type="rss"></outline>
             <outline title="Send More Paramedics" text="Send More Paramedics" xmlUrl="https://blog.fogus.me/feed.xml" htmlUrl="https://blog.fogus.me" description="λ λ λ" type="rss"></outline>
@@ -193,10 +193,13 @@
             <outline title="davidcel.is" text="davidcel.is" xmlUrl="https://davidcel.is/feeds/articles" htmlUrl="https://davidcel.is/articles" description="Articles" type="rss"></outline>
             <outline title="Deciphering Glyph" text="Deciphering Glyph" xmlUrl="https://blog.glyph.im/feeds/all.atom.xml" htmlUrl="https://blog.glyph.im/" type="rss"></outline>
             <outline title="eWritable" text="eWritable" xmlUrl="https://ewritable.net/feed/" htmlUrl="https://ewritable.net" description="E-Ink Tablet Guides &amp; Reviews" type="rss"></outline>
+            <outline title="jr conlin&#39;s ink stained banana" text="jr conlin&#39;s ink stained banana" xmlUrl="https://blog.unitedheroes.net/feed" htmlUrl="https://blog.unitedheroes.net" description="It&#39;s teaching the monkey to stop typing that&#39;s hard." type="rss"></outline>
             <outline title="justinmklam | blog" text="justinmklam | blog" xmlUrl="https://www.justinmklam.com/index.xml" htmlUrl="https://justinmklam.com/" description="Recent content on justinmklam | blog" type="rss"></outline>
             <outline title="ma[ch|x]s&#39;space" text="ma[ch|x]s&#39;space" xmlUrl="https://machs.space/index.xml" htmlUrl="https://machs.space/" description="Recent content on ma[ch|x]s&#39;space" type="rss"></outline>
             <outline title="Matt" text="Matt" xmlUrl="https://write.as/matt/feed/" htmlUrl="https://write.as/matt/feed/" type="rss"></outline>
             <outline title="Radicle: the sovereign forge" text="Radicle: the sovereign forge" xmlUrl="https://radicle.xyz/feed.xml" htmlUrl="https://radicle.xyz/feed.xml" type="rss"></outline>
+            <outline title="René Mayrhofer" text="René Mayrhofer" xmlUrl="https://www.mayrhofer.eu.org/index.xml" htmlUrl="https://www.mayrhofer.eu.org/" description="René Mayrhofer" type="rss"></outline>
+            <outline title="tonsky.me" text="tonsky.me" xmlUrl="https://tonsky.me/atom.xml" htmlUrl="https://tonsky.me/" description="Nikita Prokopov’s blog" type="rss"></outline>
         </outline>
         <outline text="thinkers">
             <outline title="Aphyr: Posts" text="Aphyr: Posts" xmlUrl="https://aphyr.com/posts.atom" htmlUrl="https://aphyr.com/posts.atom" type="rss"></outline>
