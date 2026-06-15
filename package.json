@@ -31,7 +31,7 @@
     "react-compare-slider": "^4.0.0",
     "react-dom": "^19.2.7",
     "react-medium-image-zoom": "^5.4.7",
-    "react-plotly.js": "^2.6.0"
+    "react-plotly.js": "^3.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.1",
